@@ -8,7 +8,7 @@
         <p class="text-lg">
           Kialla Computers has been trusted in the Goulburn Valley Region for
           over 13 years and has completed over 20,000 jobs for residential and
-          business clients
+          business clients.
         </p>
       </div>
       <img src="../assets/it-support.jpg" class="w-[550px]" />
