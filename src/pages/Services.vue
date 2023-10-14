@@ -12,7 +12,7 @@
           <li>Malware removal</li>
           <li>Ethernet and wifi setup</li>
           <li>Printer and scanner setup</li>
-          <li>iPad and tablet support</li>
+          <li>iPad and Tablet support</li>
           <li>TV and SmartTV setup</li>
           <li>Data backup and recovery</li>
           <li>NBN and broadband setup</li>
