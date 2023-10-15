@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center justify-center">
     <div class="flex w-[900px] max-w-[900px] min-w-0 items-center mt-8">
-      <div class="flex flex-col mr-8">
+      <div class="flex flex-col mr-8" >
         <p class="font-bold text-4xl mb-6">
           I.T. support for home and small businesses
         </p>
