@@ -1,13 +1,19 @@
 <template>
   <div class="flex items-center justify-center">
     <div class="flex items-center w-[900px] mt-2">
-      <div class="flex flex-col mt-4">
+      <div class="flex flex-col mt-4 w-full">
         <p class="font-bold text-2xl mb-6">
           We offer a wide range of services for home and small businesses
           including
         </p>
+
+        <div class="mb-4 ml-20 mt-10 flex items-center">
+          <h2>Computer and laptop repairs</h2>
+          <br>
+          <img class="w-8 h-8 mr-4" src="../assets/computer.svg">
+        </div>
+
         <ul class="list-disc ml-8">
-          <li>Computer and laptop repairs</li>
           <li>Virus protection installation</li>
           <li>Malware removal</li>
           <li>Ethernet and wifi setup</li>
