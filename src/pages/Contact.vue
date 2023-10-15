@@ -20,7 +20,7 @@
           <img class="w-12 h-12" src="../assets/phone.svg">
         </div>
         <div class="mb-10 flex items-center justify-center">
-           <b><a href="tel:+61457826441">0457-826-441</a></b>
+           <b>0457-826-441</b>
         </div>
 
         <div class=" flex items-center justify-center">
