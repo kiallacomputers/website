@@ -23,7 +23,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">Virus protection installation</a>
+            <a class="text-xl font-extrabold">Virus Protection Installation</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -31,7 +31,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">Malware removal</a>
+            <a class="text-xl font-extrabold">Malware Removal</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -55,7 +55,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">iPad and Tablet support</a>
+            <a class="text-xl font-extrabold">iPad and Tablet Support</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -63,7 +63,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">TV and SmartTV setup</a>
+            <a class="text-xl font-extrabold">TV and SmartTV Setup</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -71,7 +71,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">Data backup and recovery</a>
+            <a class="text-xl font-extrabold">Data Backup and Recovery</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -79,7 +79,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">NBN and broadband setup</a>
+            <a class="text-xl font-extrabold">NBN and Broadband Setup</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -87,7 +87,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">Home office setup and support</a>
+            <a class="text-xl font-extrabold">Home Office Setup and Support</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -95,7 +95,7 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">Email intergration for business</a>
+            <a class="text-xl font-extrabold">Email Intergration for Business</a>
           </div>
           
           <div class="flex items-center w-full  justify-center">
@@ -103,11 +103,11 @@
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">Business security setup</a>
+            <a class="text-xl font-extrabold">Business Security Setup</a>
           </div>
           
           <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-extrabold">And much more... Just contact us!</a>
+            <a class="text-xl font-extrabold">And much more... Just&nbsp;<a class="text-xl font-extrabold" href="mailto:sales@kiallacomputers.com.au?Subject=Service Enquire">contact us!</a></a>
           </div>
         
         </div>

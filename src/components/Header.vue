@@ -10,14 +10,14 @@
       <div class="grow"></div>
       <router-link to="/services">
         <div
-          class="px-4 text-lg cursor-pointer hover:opacity-70 transition-all"
+          class="px-4 font-medium text-lg cursor-pointer hover:opacity-70 transition-all"
         >
           Services
         </div>
       </router-link>
       <router-link to="/contact">
         <div
-          class="px-4 text-lg cursor-pointer hover:opacity-70 transition-all"
+          class="px-4 font-medium text-lg cursor-pointer hover:opacity-70 transition-all"
         >
           Contact Us
         </div>
