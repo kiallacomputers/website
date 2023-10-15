@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center justify-center">
-    <div class="flex items-center w-[900px] mt-2">
+    <div class="flex items-center w-[900px] mt-2 justify-center">
       <div class="flex flex-col mt-10 w-full">
         
-        <p class="font-bold text-4xl mb-6 text-center w-full">
+        <p class="font-bold text-4xl mb-6 text-center w-full justify-center">
           Love to hear from you, please reach out
         </p>
         
