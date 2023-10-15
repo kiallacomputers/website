@@ -2,7 +2,7 @@
   <div class="flex items-center justify-center">
     <div class="flex items-center w-[900px] mt-2">
       <div class="flex flex-col mt-4">
-        <p class="font-bold text-4xl mb-6">
+        <p class="font-bold text-4xl mb-6 text-center">
           Love to hear from you, please reach out
         </p>
         <p class="mb-4">
