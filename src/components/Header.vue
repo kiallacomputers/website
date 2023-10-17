@@ -3,7 +3,7 @@
     <div class="flex items-center w-[900px] mt-2">
       <router-link to="/">
         <img
-          src="../assets/KC-Logo-4K.png"
+          src="../assets/KC-Logo-3K.svg"
           class="h-20 cursor-pointer hover:opacity-70 transition-all"
         />
       </router-link>
