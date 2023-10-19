@@ -16,8 +16,8 @@
           </div>
 
           <div class="flex flex-row items-center justify-center">
-              <div class="basis-1/2"><a class="ml-4 text-xl font-bold">Computer and Latop Repairs</a></div>
-              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Virus Protection Installation</a></div>
+              <div class="basis-1/2"><a class="text-l font-bold">Computer and Latop Repairs</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Virus Protection Installation</a></div>
           </div>
 
           <div class="flex flex-row items-center justify-center mt-10">
@@ -26,8 +26,8 @@
           </div>
 
           <div class="flex flex-row items-center justify-center">
-              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Malware Removal</a></div>
-              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Ethernet and Wifi Setup</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Malware Removal</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Ethernet and Wifi Setup</a></div>
           </div>
 
           <div class="flex flex-row items-center justify-center mt-10">
@@ -36,51 +36,42 @@
           </div>
 
           <div class="flex flex-row items-center justify-center">
-              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Printer and Scanner Setup</a></div>
-              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">iPad and Tablet Support</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Printer and Scanner Setup</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">iPad and Tablet Support</a></div>
           </div>
-          <div class="flex items-center w-full  justify-center">
-            
-            
+
+          <div class="flex flex-row items-center justify-center mt-10">
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/smarttv.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/data.svg"></div>
           </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            
-            
+
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">TV and SmartTV Setup</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Data Backup and Recovery</a></div>
           </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/smarttv.svg">
-            <a class="text-xl ml-4 font-bold">TV and SmartTV Setup</a>
+
+          <div class="flex flex-row items-center justify-center mt-10">
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/modem.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/homeoffice.svg"></div>
           </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/data.svg">
-            <a class="text-xl ml-4 font-bold">Data Backup and Recovery</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/modem.svg">
-            <a class="text-xl ml-4 font-bold">NBN and Broadband Setup</a>
+
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">NBN and Broadband Setup</a></div>
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Home Office Setup and Support</a></div>
           </div>
           
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/homeoffice.svg">
-            <a class="text-xl ml-4 font-bold">Home Office Setup and Support</a>
+          <div class="flex flex-row items-center justify-center mt-10">
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/emailsetup.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10 items-center" src="../assets/security2.svg"></div>
+          </div>
+
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><a class="text-l ml-4 font-bold">Email Intergration for Business</a></div>
+              <div class="basis-1/2 items-center justify-center"><a class="text-l ml-4 font-bold">Business Security Setup</a></div>
           </div>
           
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/emailsetup.svg">
-            <a class="text-xl ml-4 font-bold">Email Intergration for Business</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/security2.svg">
-            <a class="text-xl ml-4 font-bold">Business Security Setup</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center mb-10">
-            <a class="text-xl font-bold">And much more... Just&nbsp;<a class="text-xl font-bold" href="mailto:sales@kiallacomputers.com.au?Subject=Service Enquire">contact us!</a></a>
+          <div class="flex flex-row items-center justify-center mt-20">
+            <div class="basis-1/2 items-center justify-center"><a class="text-l font-bold">And much more... Just&nbsp;<a class="text-l font-bold" href="mailto:sales@kiallacomputers.com.au?Subject=Service Enquire">contact us!</a></a></div>
           </div>
         
         </div>
