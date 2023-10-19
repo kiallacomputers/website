@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center">
+  <div class="flex flex-col items-center justify-center bg-[url('/assests/LC-Logo-Only.png')]">
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
         <p class="font-bold text-4xl mb-6">
