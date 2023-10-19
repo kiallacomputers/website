@@ -26,5 +26,8 @@
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
       ></iframe>
     </div>
+    <div class="flex">
+      <div><a href="https://www.localbusinessguide.com.au/business/kialla-computers/"><img src="https://www.localbusinessguide.com.au/i/logo6.png"><br>Find us on Local Business Guide</a></div>
+    </div>
   </div>
 </template>
