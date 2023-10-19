@@ -123,7 +123,7 @@
           </div>
 
           <div class="flex flex-row items-center justify-center mt-20">
-            <div class="flex basis-1/2 items-center justify-center text-center w-full">
+            <div class="flex items-center justify-center text-center w-full">
               <a class="text-l font-bold"
                 >And much more... Just&nbsp;<a
                   class="text-l font-bold"
