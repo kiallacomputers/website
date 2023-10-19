@@ -10,7 +10,7 @@
         
         <div class=" mb-10 mt-10 w-full">
 
-          <div class="flex flex-row items-center justify-center">
+          <div class="flex flex-row items-center justify-center w-full">
               <div class="basis-1/2"><img class="w-10 h-10" src="../assets/computer.svg"></div>
               <div class="basis-1/2"><img class="w-10 h-10" src="../assets/security.svg"></div>
           </div>
@@ -62,7 +62,7 @@
           
           <div class="flex flex-row items-center justify-center mt-10">
               <div class="basis-1/2"><img class="w-10 h-10" src="../assets/emailsetup.svg"></div>
-              <div class="basis-1/2"><img class="w-10 h-10 items-center" src="../assets/security2.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/security2.svg"></div>
           </div>
 
           <div class="flex flex-row items-center justify-center">
