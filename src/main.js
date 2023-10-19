@@ -6,7 +6,7 @@ import Home from './pages/Home.vue';
 import Services from './pages/Services.vue';
 import Contact from './pages/Contact.vue';
 import Services2 from "./pages/Services2.vue";
-import Specials from "./pages/Specials.vue";
+import Specials from "./pages/Specials.vue"
 
 const routes = [
     { path: '/', component: Home },

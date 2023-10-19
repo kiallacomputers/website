@@ -8,7 +8,7 @@
         </p>
 
         <div class="flex flex-col items-center justify-center mt-20 w-full">
-          <div class="flex items-center justify-center text-center w-full">
+          <div class="flex items-center justify-center text-center w-full mb-10">
               <img src="../assets/specials/HomeOfficeCompleteLandscape.png" class="w-4/5 items-center"/>
             </div>
             <div class="flex items-center justify-center text-center w-full">
