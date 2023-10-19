@@ -8,36 +8,45 @@
 
         <p class="font-bold text-5xl text-2xl mb-6 text-center w-full">Services We Offer</p>
         
-        <div class="mb-10 mt-10 w-full">
+        <div class=" mb-10 mt-10 w-full">
 
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/computer.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/security.svg"></div>
+          </div>
+
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><a class="ml-4 text-xl font-bold">Computer and Latop Repairs</a></div>
+              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Virus Protection Installation</a></div>
+          </div>
+
+          <div class="flex flex-row items-center justify-center mt-10">
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/malware.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/wifi.svg"></div>
+          </div>
+
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Malware Removal</a></div>
+              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Ethernet and Wifi Setup</a></div>
+          </div>
+
+          <div class="flex flex-row items-center justify-center mt-10">
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/printer.svg"><img class="w-10 h-10" src="../assets/scanner.svg"></div>
+              <div class="basis-1/2"><img class="w-10 h-10" src="../assets/ipad.svg"></div>
+          </div>
+
+          <div class="flex flex-row items-center justify-center">
+              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">Printer and Scanner Setup</a></div>
+              <div class="basis-1/2"><a class="text-xl ml-4 font-bold">iPad and Tablet Support</a></div>
+          </div>
           <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10 float-left" src="../assets/computer.svg">
-            <a class="ml-4 text-xl font-bold">Computer and Latop Repairs</a>
+            
+            
           </div>
           
           <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/security.svg">
-            <a class="text-xl ml-4 font-bold">Virus Protection Installation</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/malware.svg">
-            <a class="text-xl ml-4 font-bold">Malware Removal</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/wifi.svg">
-            <a class="text-xl ml-4 font-bold">Ethernet and Wifi Setup</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/printer.svg"><img class="w-10 h-10" src="../assets/scanner.svg">
-            <a class="text-xl ml-4 font-bold">Printer and Scanner Setup</a>
-          </div>
-          
-          <div class="flex items-center w-full  justify-center">
-            <img class="w-10 h-10" src="../assets/ipad.svg">
-            <a class="text-xl ml-4 font-bold">iPad and Tablet Support</a>
+            
+            
           </div>
           
           <div class="flex items-center w-full  justify-center">
