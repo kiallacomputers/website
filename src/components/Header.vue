@@ -26,7 +26,7 @@
         <div
           class="px-4 font-medium md:text-lg cursor-pointer hover:opacity-70 transition-all"
         >
-          .
+          
         </div>
       </router-link>
     </div>
