@@ -9,10 +9,10 @@
         <div class="mb-10 mt-10 w-full">
           <div class="flex flex-row items-center justify-center w-full">
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/computer.svg" />
+              <img class="w-20 h-20" src="../assets/computer.svg" />
             </div>
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/security.svg" />
+              <img class="w-20 h-20" src="../assets/security.svg" />
             </div>
           </div>
 
@@ -27,10 +27,10 @@
 
           <div class="flex flex-row items-center justify-center mt-10">
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/malware.svg" />
+              <img class="w-20 h-20" src="../assets/malware.svg" />
             </div>
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/wifi.svg" />
+              <img class="w-20 h-20" src="../assets/wifi.svg" />
             </div>
           </div>
 
@@ -45,13 +45,10 @@
 
           <div class="flex flex-row items-center justify-center mt-10">
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/printer.svg" /><img
-                class="w-10 h-10"
-                src="../assets/scanner.svg"
-              />
+              <img class="w-20 h-20" src="../assets/printer.svg" />
             </div>
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/ipad.svg" />
+              <img class="w-20 h-20" src="../assets/ipad.svg" />
             </div>
           </div>
 
@@ -66,10 +63,10 @@
 
           <div class="flex flex-row items-center justify-center mt-10">
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/smarttv.svg" />
+              <img class="w-20 h-20" src="../assets/smarttv.svg" />
             </div>
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/data.svg" />
+              <img class="w-20 h-20" src="../assets/data.svg" />
             </div>
           </div>
 
@@ -84,10 +81,10 @@
 
           <div class="flex flex-row items-center justify-center mt-10">
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/modem.svg" />
+              <img class="w-20 h-20" src="../assets/modem.svg" />
             </div>
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/homeoffice.svg" />
+              <img class="w-20 h-20" src="../assets/homeoffice.svg" />
             </div>
           </div>
 
@@ -102,10 +99,10 @@
 
           <div class="flex flex-row items-center justify-center mt-10">
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/emailsetup.svg" />
+              <img class="w-20 h-20" src="../assets/emailsetup.svg" />
             </div>
             <div class="flex items-center justify-center basis-1/2">
-              <img class="w-10 h-10" src="../assets/security2.svg" />
+              <img class="w-20 h-20" src="../assets/security2.svg" />
             </div>
           </div>
 
