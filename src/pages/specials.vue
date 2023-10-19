@@ -4,7 +4,10 @@
     <div class="flex items-center w-[900px] mt-2">
       <div class="flex flex-col mt-4 w-full">
         <p class="font-bold text-5xl text-2xl mb-6 text-center w-full">
-          Weekly Specials <br>Starting Mon 23rd of Oct 2023
+          Weekly Specials
+        </p>
+        <p class="font-bold text-l text-2xl mb-6 text-center w-full">
+          Starting Mon 23rd of Oct 2023
         </p>
 
         <div class="flex flex-col items-center justify-center mt-20 w-full">
