@@ -5,7 +5,7 @@
         <p class="font-bold text-4xl">
           I.T. SUPPORT
         </p>
-        <p class="font-bold text-lg mb-6">
+        <p class="font-bold text-l mb-6">
           for home and small businesses 
         </p>
         <p class="text-lg mb-6">
@@ -21,7 +21,7 @@
           Contact us today to explore how Kialla Computers can empower your digital world.
         </p>
       </div>
-      <img class="mt-10" src="../assets/it-support.jpg" class="w-[450px] hidden lg:block" />
+      <img src="../assets/it-support.jpg" class="w-[450px] hidden lg:block mt-10" />
     </div>
     <div class="flex">
       <iframe 
