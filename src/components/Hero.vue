@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center bg-[url('/assests/LC-Logo-Only.png')]">
+  <div class="flex flex-col items-center justify-center">
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
         <p class="font-bold text-4xl mb-6">
@@ -12,6 +12,19 @@
         </p>
       </div>
       <img src="../assets/it-support.jpg" class="w-[550px] hidden lg:block" />
+    </div>
+    <div class="flex">
+      <iframe 
+        class="mt-16 mx-4 max-w-full"
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02SzEHwPumPStKnGpuy5nREoupND9hFcQQRew7dXSLQ9zFNi75C9vtdbGw747Z3TXul%26id%3D100008495259875&show_text=true&width=500" 
+        width="500" 
+        height="190" 
+        style="border:none;overflow:hidden" 
+        scrolling="no" 
+        frameborder="0" 
+        allowfullscreen="true" 
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+      </iframe>
     </div>
     <div class="flex">
       <iframe
