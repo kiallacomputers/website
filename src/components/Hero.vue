@@ -1,7 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center">
-    <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
-      <div class="lg:mr-8 lg:ml-0">
+      <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
         <p class="font-bold text-4xl">
           I.T. SUPPORT
         </p>
@@ -9,6 +7,8 @@
           for home and small businesses 
         </p>
       </div>
+  <div class="flex flex-col items-center justify-center">
+    <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
         <p class="text-lg mb-6">
           Kialla Computers is a cutting-edge computer company dedicated to providing a wide range of technology solutions
