@@ -21,7 +21,7 @@
           Contact us today to explore how Kialla Computers can empower your digital world.
         </p>
       </div>
-      <img src="../assets/it-support.jpg" class="w-[450px] hidden lg:block" />
+      <img class="mt-10" src="../assets/it-support.jpg" class="w-[450px] hidden lg:block" />
     </div>
     <div class="flex">
       <iframe 
