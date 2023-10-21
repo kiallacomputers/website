@@ -5,16 +5,16 @@
         <p class="font-bold text-4xl mb-6">
           I.T. support for home and small businesses
         </p>
-        <p class="text-lg">
+        <p class="text-lg mb-6">
           Kialla Computers is a cutting-edge computer company dedicated to providing a wide range of technology solutions
           to meet the ever-evolving needs of individuals and businesses. With a passion for innovation and a commitment to 
           excellence, we are your trusted partner in the digital age. 
         </p>
-        <p class="text-lg">
+        <p class="text-lg mb-6">
           At Kialla Computers, we believe that technology should enhance your life and business, not complicate it. We're 
           here to simplify the world of computers and technology, ensuring that you're always connected, secure, and efficient. 
         </p>
-        <p class="text-lg">  
+        <p class="text-lg mb-6">  
           Contact us today to explore how Kialla Computers can empower your digital world.
         </p>
       </div>
