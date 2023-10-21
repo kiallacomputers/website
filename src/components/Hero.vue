@@ -8,6 +8,8 @@
         <p class="font-bold text-l mb-6">
           for home and small businesses 
         </p>
+      </div>
+      <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
         <p class="text-lg mb-6">
           Kialla Computers is a cutting-edge computer company dedicated to providing a wide range of technology solutions
           to meet the ever-evolving needs of individuals and businesses. With a passion for innovation and a commitment to 
