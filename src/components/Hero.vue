@@ -1,5 +1,5 @@
 <template>
-      <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
+      <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0 items-center justify-center">
         <p class="font-bold text-4xl">
           I.T. SUPPORT
         </p>
