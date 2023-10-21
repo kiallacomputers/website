@@ -28,7 +28,7 @@
     </div>
     <div class="flex">
       <iframe
-        class="mt-16 mx-4 max-w-full"
+        class="mt-5 mx-4 max-w-full"
         src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjenny.c.barber%2Fposts%2Fpfbid0kbfms467JhxEQox25LwPLHworStTFJGPbTz1KbKqbUwdM6H4njQJSGuJLEa3s5JBl&show_text=true&width=500"
         width="500"
         height="200"
