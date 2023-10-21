@@ -6,7 +6,7 @@
           I.T. SUPPORT
         </p>
         <p class="font-bold text-lg mb-6">
-          for home and small businesses
+          for home and small businesses 
         </p>
         <p class="text-lg mb-6">
           Kialla Computers is a cutting-edge computer company dedicated to providing a wide range of technology solutions
