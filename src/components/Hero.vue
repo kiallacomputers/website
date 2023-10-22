@@ -1,4 +1,9 @@
 <template>
+      <div class=" mx-8 lg:mr-8 lg:ml-0 float-right">
+        <!-- Start Square Appointments Embed code --> 
+        <a target="_top" style=" background-color: #006aff; border: none; color: white; height: 40px; text-transform: uppercase; font-family: 'Square Market', sans-serif; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow">Book Appointment</a> 
+        <!-- End Square Appointments Embed code -->
+      </div>
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0 items-center justify-center">
         <p class="font-bold text-4xl">
           I.T. SUPPORT
