@@ -30,7 +30,7 @@
         <!-- Start Square Appointments Embed code --> 
         <a target="_top" style=" background-color: #144C84; border: none; color: white; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow">Book a Consult</a> 
         <!-- End Square Appointments Embed code -->
-      </div>
+    </div>
 
     <!-- Start Facebook Reviews-->
     <div class="flex">
@@ -49,7 +49,7 @@
 
     <div class="flex">
       <iframe
-        class="mt-5 mx-4 max-w-full"
+        class="mx-4 max-w-full"
         src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjenny.c.barber%2Fposts%2Fpfbid0kbfms467JhxEQox25LwPLHworStTFJGPbTz1KbKqbUwdM6H4njQJSGuJLEa3s5JBl&show_text=true&width=500"
         width="500"
         height="200"
