@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center">
+  <div class="flex items-center justify-center font-quest">
     <div class="flex items-center w-[900px] mt-2">
       <div class="flex flex-col mt-4 w-full">
         <p class="font-bold text-5xl text-2xl mb-6 text-center w-full">
