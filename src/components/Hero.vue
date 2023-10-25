@@ -64,7 +64,7 @@
 
     <!-- Start Facebook like our page button-->
     <div class="flex">
-      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkiallacomputers&width=0&layout&action&size&share=true&height=35&appId" width="20" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkiallacomputers&width=0&layout&action&size&share=true&height=35&appId" width="35" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
     <!-- End Facebook like our page button-->
     
