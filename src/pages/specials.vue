@@ -7,14 +7,14 @@
           Weekly Specials
         </p>
         <p class="font-bold text-xl mb-6 text-center w-full">
-          Starting Mon 23rd of Oct 2023
+          <!--Starting Mon 23rd of Oct 2023-->
         </p>
 
         <div class="flex flex-col items-center justify-center mt-10 w-full">
           <div class="flex items-center justify-center text-center w-full mb-10">
-              <img src="../assets/specials/HomeOfficeCompleteLandscape.png" class="w-1/4 items-center"/>
+              <img src="../assets/specials/HomeOfficeCompleteLandscape1.png" class="w-1/4 items-center"/>
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <img src="../assets/specials/HomeOfficeUpgradeLandscape.png" class="w-1/4 items-center"/>
+              <img src="../assets/specials/HomeOfficeUpgradeLandscape1.png" class="w-1/4 items-center"/>
             </div>
           </div>
 
