@@ -8,13 +8,13 @@
         />
       </router-link>
       <div class="grow"></div>
-      <router-link to="/specials">
+<!--      <router-link to="/specials">
         <div
           class="px-4 font-quest font-extrabold font-medium md:text-lg cursor-pointer hover:opacity-70 transition-all"
         >
           Specials
         </div>
-      </router-link>
+      </router-link> -->
       <router-link to="/services">
         <div
           class="px-4 font-quest font-extrabold font-medium md:text-lg cursor-pointer hover:opacity-70 transition-all"
