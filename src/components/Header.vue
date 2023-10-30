@@ -4,7 +4,7 @@
       <router-link to="/">
         <img
           src="../assets/KC-Logo-3K.svg"
-          class="h-14 md:h-20 cursor-pointer hover:opacity-70 transition-all"
+          class="h-14 md:h-20 cursor-pointer hover:opacity-60 transition-all"
         />
       </router-link>
       <div class="grow"></div>
