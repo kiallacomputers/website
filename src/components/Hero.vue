@@ -1,11 +1,11 @@
 <template>
 
-  <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0 items-center justify-center">
+  <div class="flex flex-col mx-8 lg:mr-8 lg:ml-8 items-center justify-center">
     <div class="bg-[url('assets/hsbbgbanner.png')] w-[900px] text-left justify-center opacity-70">
-      <p class="font-bold text-4xl font-quest text-[#FFF] mt-8 ml-20">
+      <p class="font-bold text-4xl font-quest text-[#FFF] lg:mt-8 lg:ml-20">
         I.T. SUPPORT
       </p>
-      <p class="font-bold text-l mb-6 font-quest text-[#FFFFFF] ml-20">
+      <p class="font-bold text-l mb-6 font-quest text-[#FFFFFF] lg:ml-20">
         for home and small businesses 
       </p>
     </div>
