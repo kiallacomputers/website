@@ -1,12 +1,14 @@
 <template>
 
   <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0 items-center justify-center">
-    <p class="font-bold text-4xl font-quest">
-      I.T. SUPPORT
-    </p>
-    <p class="font-bold text-l mb-6 font-quest">
-      for home and small businesses 
-    </p>
+    <div class="bg-[url('assets/hsbbgbanner.png')] w-[900px] text-left justify-center">
+      <p class="font-bold text-4xl font-quest text-[#FFFFFF] mt-2 ml-5">
+        I.T. SUPPORT
+      </p>
+      <p class="font-bold text-l mb-6 font-quest text-[#FFFFFF] ml-5">
+        for home and small businesses 
+      </p>
+    </div>
   </div>
   <div class="flex flex-col items-center justify-center">
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
@@ -28,7 +30,7 @@
     </div>
     <div class="flex felex-col mx-8 lg:mr-8 lg:ml-0">
         <!-- Start Square Appointments Embed code --> 
-        <a target="_top" style=" background-color: #31c0DF; border: none; color: white; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow">Book a Tech</a> 
+        <a target="_top" style=" background-color: #31C0DF; border: none; color: white; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow">Book a Tech</a> 
         <!-- End Square Appointments Embed code -->
     </div>
 
@@ -62,12 +64,6 @@
     </div>
     <!-- End Facebook Reviews-->
 
-    <!-- Start Facebook like our page button-->
-    <div class="flex">
-        <iframe class="mx-4 max-w-full" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkiallacomputers%2F&width=200&layout&action&size&share=true&height=35&appId" width="200" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    </div>
-    <!-- End Facebook like our page button-->
-    
     <!-- Start Local Business Guide AD-->
     <div class="flex font-quest">
       <div><a href="https://www.localbusinessguide.com.au/business/kialla-computers/"><img src="https://www.localbusinessguide.com.au/i/logo6.png"><br>Find us on Local Business Guide</a></div>
