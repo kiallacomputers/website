@@ -28,7 +28,7 @@
     </div>
     <div class="flex felex-col mx-8 lg:mr-8 lg:ml-0">
         <!-- Start Square Appointments Embed code --> 
-        <a target="_top" style=" background-color: #144C84; border: none; color: white; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow">Book a Consult</a> 
+        <a target="_top" style=" background-color: #31c0DF; border: none; color: white; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow">Book a Tech</a> 
         <!-- End Square Appointments Embed code -->
     </div>
 
