@@ -60,7 +60,7 @@
         "
         href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start"
         rel="nofollow"
-        class="hover:opacity-70 transition-all"
+        class="hover:opacity-80 transition-all"
         >Book a Tech</a
       >
       <!-- End Square Appointments Embed code -->
