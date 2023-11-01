@@ -21,14 +21,14 @@
         style="
           background-color: #31c0df;
           border: none;
-          color: white;
+          color: #144c84;
           height: 40px;
           font-family: 'Questrial';
           letter-spacing: 1px;
           line-height: 38px;
           padding: 0 28px;
           border-radius: 8px;
-          font-weight: 500;
+          font-weight: 800;
           font-size: 14px;
           cursor: pointer;
           display: inline-block;
@@ -36,7 +36,7 @@
         href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start"
         rel="nofollow"
         class="hover:opacity-80 transition-all"
-        >Book a Tech</a
+        >BOOK A TECH</a
       >
       <!-- End Square Appointments Embed code -->
     </div>
