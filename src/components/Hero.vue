@@ -33,6 +33,7 @@
         "
         href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start"
         rel="nofollow"
+        Target="_blank"
         class="hover:opacity-80 transition-all"
         >BOOK A TECH</a
       >
@@ -62,11 +63,6 @@
         src="../assets/it-support.jpg"
         class="w-[450px] hidden lg:block mt-10" />
     </div>
-    <!-- Start New Facebook Review -->
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-4a399d55-b308-4cf6-9f81-2d12dd892b98" data-elfsight-app-lazy></div>
-    <!-- End New Facebook Review -->
-
     <!-- Start Facebook Reviews-->
     <div class="flex">
       <iframe
