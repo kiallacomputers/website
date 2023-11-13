@@ -1,14 +1,12 @@
 <template>
   <div class="flex flex-col mx-8 lg:mr-8 lg:ml-8 items-center justify-center">
     <div
-      class="bg-[url('assets/hsbbgbanner.png')] bg-no-repeat w-[900px] text-center justify-center"
-    >
+      class="bg-[url('assets/hsbbgbanner.png')] bg-no-repeat w-[900px] text-center justify-center">
       <p class="font-bold text-4xl font-quest text-[#144C84] mt-10 capitalize">
         I.T. SUPPORT
       </p>
       <p
-        class="font-extrabold text-2xl mb-14 font-quest text-[#144C84] capitalize"
-      >
+        class="font-extrabold text-2xl mb-14 font-quest text-[#144C84] capitalize">
         for home and small businesses
       </p>
     </div>
@@ -62,9 +60,12 @@
       </div>
       <img
         src="../assets/it-support.jpg"
-        class="w-[450px] hidden lg:block mt-10"
-      />
+        class="w-[450px] hidden lg:block mt-10" />
     </div>
+    <!-- Start New Facebook Review -->
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-4a399d55-b308-4cf6-9f81-2d12dd892b98" data-elfsight-app-lazy></div>
+    <!-- End New Facebook Review -->
 
     <!-- Start Facebook Reviews-->
     <div class="flex">
@@ -77,8 +78,7 @@
         scrolling="no"
         frameborder="0"
         allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-      >
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
       </iframe>
     </div>
 
@@ -92,8 +92,7 @@
         scrolling="no"
         frameborder="0"
         allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-      ></iframe>
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
     <!-- End Facebook Reviews-->
 
@@ -103,8 +102,8 @@
         <a
           href="https://www.localbusinessguide.com.au/business/kialla-computers/"
           ><img
-            src="https://www.localbusinessguide.com.au/i/logo6.png"
-          /><br />Find us on Local Business Guide</a
+            src="https://www.localbusinessguide.com.au/i/logo6.png" /><br />Find
+          us on Local Business Guide</a
         >
       </div>
     </div>
