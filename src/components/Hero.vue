@@ -15,7 +15,7 @@
     <div class="flex felex-col mx-8 lg:mr-8 lg:ml-0 mt-5">
       <!-- Start Square Appointments Embed code -->
       <a
-        target="_top"
+        target="_blank"
         style="
           background-color: #31c0df;
           border: none;
@@ -33,7 +33,6 @@
         "
         href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start"
         rel="nofollow"
-        Target="_blank"
         class="hover:opacity-80 transition-all"
         >BOOK A TECH</a
       >
