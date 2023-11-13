@@ -17,8 +17,8 @@
       <a
         target="_blank"
         style="
-          background-color: #31c0df;
-          border: none;
+          background-color: #FFFFFF;
+          border: 2px solid #144C84;
           color: #144c84;
           height: 40px;
           font-family: 'Questrial';
@@ -33,7 +33,7 @@
         "
         href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start"
         rel="nofollow"
-        class="hover:opacity-80 transition-all"
+        class="hover:opacity-80 transition-all #111111"
         >BOOK A TECH</a
       >
       <!-- End Square Appointments Embed code -->
