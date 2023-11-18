@@ -68,7 +68,7 @@
      End Google Reviews -->
 
     <!-- -->
-    <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='0' width='900' height='1000'></iframe>
+    <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='0' width='900' height='1600'></iframe>
     <!-- -->
     <!-- Start Facebook Reviews-->
 <!--    <div class="flex">
