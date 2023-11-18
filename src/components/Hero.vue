@@ -64,40 +64,12 @@
     </div>
 
     <!-- Start Google Reviews -->
-    <!--<iframe src='https://widgets.sociablekit.com/google-reviews/iframe/228283' frameborder='0' width='900' height='1000'></iframe>
-     End Google Reviews -->
+    <!-- <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/228283' frameborder='0' width='900' height='1000'></iframe> -->
+    <!-- End Google Reviews -->
 
-    <!-- -->
+    <!-- Start Facebook Reviews -->
     <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='0' width='900' height='1600'></iframe>
-    <!-- -->
-    <!-- Start Facebook Reviews-->
-<!--    <div class="flex">
-      <iframe
-        class="mt-16 mx-4 max-w-full"
-        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02SzEHwPumPStKnGpuy5nREoupND9hFcQQRew7dXSLQ9zFNi75C9vtdbGw747Z3TXul%26id%3D100008495259875&show_text=true&width=500"
-        width="500"
-        height="190"
-        style="border: none; overflow: hidden"
-        scrolling="no"
-        frameborder="0"
-        allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-      </iframe>
-    </div>
-
-    <div class="flex">
-      <iframe
-        class="mx-4 max-w-full"
-        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjenny.c.barber%2Fposts%2Fpfbid0kbfms467JhxEQox25LwPLHworStTFJGPbTz1KbKqbUwdM6H4njQJSGuJLEa3s5JBl&show_text=true&width=500"
-        width="500"
-        height="200"
-        style="border: none; overflow: hidden"
-        scrolling="no"
-        frameborder="0"
-        allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    </div>-->
-    <!-- End Facebook Reviews-->
+    <!-- End Facebook Reviews -->
 
     <!-- Start Local Business Guide AD-->
     <div class="flex font-quest">
