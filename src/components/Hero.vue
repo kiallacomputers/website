@@ -65,13 +65,13 @@
 
     <!-- Start Google Reviews -->
     <!-- <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8"> -->
-    <!-- <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/228283' frameborder='0' width='900' height='1000'></iframe> -->
+    <!-- <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/228283' frameborder='0' width='90%' height='1450'></iframe> -->
     <!-- </div> -->
     <!-- End Google Reviews -->
 
     <!-- Start Facebook Reviews -->
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
-      <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='0' width='100%' height='1600'></iframe>
+      <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='1' width='90%' height='1450'></iframe>
     </div>
     <!-- End Facebook Reviews -->
 
@@ -81,8 +81,8 @@
         <a
           href="https://www.localbusinessguide.com.au/business/kialla-computers/"
           ><img
-            src="https://www.localbusinessguide.com.au/i/logo6.png" /><br />Find
-          us on Local Business Guide</a
+            src="https://www.localbusinessguide.com.au/i/logo6.png" /><br><p>Find
+          us on Local Business Guide</p></a
         >
       </div>
     </div>
