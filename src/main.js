@@ -9,7 +9,7 @@ import Contact from './pages/Contact.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/services', component: Services },
-    { path: '/contact', component: Contact }
+    { path: '/contact', component: Contact },
 ]
 
 const router = createRouter({
