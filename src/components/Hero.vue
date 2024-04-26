@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col mx-8 lg:mr-8 lg:ml-8 items-center justify-center">
     <div class="bg-[url('assets/hsbbgbanner.png')] bg-no-repeat w-[900px] text-center justify-center">
-      <p class="font-bold text-4xl font-quest text-[#000000] mt-10 capitalize">
+      <p class="font-bold text-4xl font-quest text-[#FFF] mt-10 capitalize">
         I.T. SUPPORT
       </p>
-      <p class="font-extrabold text-2xl mb-14 font-quest text-[#000000] capitalize">
+      <p class="font-extrabold text-2xl mb-14 font-quest text-[#FFF] capitalize">
         for home and small businesses
       </p>
     </div>
