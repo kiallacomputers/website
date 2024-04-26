@@ -1,4 +1,11 @@
 <template>
+    <div class="flex flex-col mx-8 lg:mr-8 lg:ml-8 items-center justify-center">
+    <div class="bg-[url('assets/hsbbgbanner.png')] bg-no-repeat w-[900px] text-center justify-center">
+      <p class="font-bold text-4xl font-quest text-[#144C84] mt-10 capitalize">
+        SERVICES WE OFFER
+      </p>
+    </div>
+  </div>
   <div class="flex items-center justify-center font-quest">
     <div class="flex items-center w-[900px] mt-2">
       <div class="flex flex-col mt-4 w-full">
