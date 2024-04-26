@@ -4,7 +4,7 @@
       <p class="font-bold text-4xl font-quest text-[#144C84] mt-10 capitalize">
         SERVICES WE OFFER
       </p>
-      <p>
+      <p class="h-50">
       &nbsp;
       </p>
     </div>
