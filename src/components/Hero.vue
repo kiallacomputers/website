@@ -47,17 +47,17 @@
       <img src="../assets/it-support.jpg" class="w-[450px] hidden lg:block mt-10">
     </div>
 
-    <!-- Start Google Reviews -->
+    <!-- Start Google Reviews 
     <div class="flex w-[900px] h-[650px] max-w-full min-w-0  max-h-full min-h-0 items-center mt-8">
       <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/228283' class="w-full h-full"></iframe>
     </div>
-    <!-- End Google Reviews -->
+     End Google Reviews -->
 
-    <!-- Start Facebook Reviews -->
+    <!-- Start Facebook Reviews 
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
       <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='1' width='100%' height='1450'></iframe>
     </div>
-    <!-- End Facebook Reviews -->
+     End Facebook Reviews -->
 
     <!-- Start Local Business Guide AD-->
     <div class="flex font-quest">
