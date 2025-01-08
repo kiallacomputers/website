@@ -20,7 +20,7 @@
       <a
         target="_blank"
         style="background-color: #FFFFFF; border: 2px solid #144C84; color: #144c84; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 800; font-size: 14px; cursor: pointer; display: inline-block;" href="https://tradehq.com.au/kiallacomputers/enquire" rel="nofollow" class="hover:opacity-80 transition-all #111111">
-        BOOK A TECH
+        Enquire Here
         </a>
       <!-- End Square Appointments Embed code -->
     </div>
