@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col mx-8 lg:mr-8 lg:ml-8 items-center justify-center">
-    <div class="bg-[url('assets/hsbbgbanner.png')] bg-no-repeat w-[900px] h-[156px] text-center justify-center">
+    <div class="w-[900px] h-[156px] text-center justify-center">
       <p class="font-bold text-4xl font-quest text-[#144C84] mt-10 capitalize">
         SERVICES WE OFFER
       </p>
