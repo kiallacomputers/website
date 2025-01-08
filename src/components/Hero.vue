@@ -22,7 +22,7 @@
         style="background-color: #FFFFFF; border: 2px solid #144C84; color: #144c84; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 800; font-size: 14px; cursor: pointer; display: inline-block;" href="https://tradehq.com.au/kiallacomputers/enquire" rel="nofollow" class="hover:opacity-80 transition-all #111111">
         Enquire Here
         </a>
-      <!-- End Square Appointments Embed code -->
+      <!-- End Square Appointments Embed code. -->
     </div>
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
