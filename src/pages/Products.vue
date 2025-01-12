@@ -24,7 +24,7 @@ const products = ref([
           <tbody class="divide-y divide-gray-200 dark:divide-neutral-700">
             <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700" v-for='(product, index) in products' :key='product.id'>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200 capitalize">{{ product.prodid }}</td>
-              <td><img src="../assets/products/productImage_{{ product.prodid }}.jpg" /></td>
+              <td><img src="../assets/products/productImage_sysaer556g-a.jpg" /></td>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200">{{ product.proddesc }}</td>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200">{{ product.prodprice }}</td>
             </tr>
