@@ -147,12 +147,11 @@
           <div class="flex flex-row items-center justify-center mt-20">
             <div class="flex items-center justify-center text-center w-full">
               <a class="text-l font-bold"
-                >And much more... Just&nbsp;<a
+                >And much more... Just&nbsp;</a><a
                   class="text-l font-bold"
                   href="mailto:sales@kiallacomputers.com.au?Subject=Service Enquire"
                   >contact us!</a
-                ></a
-              >
+                >
             </div>
           </div>
         </div>

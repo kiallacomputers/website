@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/vue-table": "^8.20.5",
     "flowbite": "^2.3.0",
     "tslib": "^2.6.3",
     "vue": "^3.4.27",
