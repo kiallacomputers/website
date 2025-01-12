@@ -17,6 +17,7 @@ const products = ref([
           <thead>
             <tr>
               <td scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase dark:text-neutral-500">Code</td>
+              <td scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase dark:text-neutral-500"></td>
               <td scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase dark:text-neutral-500">Description</td>
               <td scope="col" class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase dark:text-neutral-500">Price</td>
             </tr>
@@ -24,7 +25,7 @@ const products = ref([
           <tbody class="divide-y divide-gray-200 dark:divide-neutral-700">
             <tr class="hover:bg-gray-100 dark:hover:bg-neutral-700" v-for='(product, index) in products' :key='product.id'>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200 capitalize">{{ product.prodid }}</td>
-              <td><img src="../assets/products/productImage_sysaer556g-a.jpg" /></td>
+              <td class="px-6 py-4"><img class="w-1/4" src="../assets/products/productImage_sysaer556g-a.jpg" /></td>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200">{{ product.proddesc }}</td>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200">{{ product.prodprice }}</td>
             </tr>
