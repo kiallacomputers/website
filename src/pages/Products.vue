@@ -8,7 +8,7 @@ const products = ref([
 ])
 
 function getImageUrl(name, ext) {
-  return new URL(`./assets/products/productImage_{{products.prodid}}.${ext}`, import.meta.url).href
+  return new URL(`./assets/products/productImage_{products.prodid}.${ext}`, import.meta.url).href
 }
 </script>
 
