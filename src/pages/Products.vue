@@ -3,17 +3,18 @@ import { ref } from "vue";
 
 const products = ref([
   {
-    id: 0, prodid: 'sysegr5-1t16', 
-    proddesc: 'AMD Elite Gamer Series Gaming PC. AMD Ryzen 5 5500GT with integrated Radeon graphics, 1TB NVME SSD, 16G memory', 
-    prodprice: '$720.00ex', 
-    prodimage: '/products/productImage_sysegr5-1t16.jpg'
+    id: 0,
+    prodid: "sysegr5-1t16",
+    proddesc:  "AMD Elite Gamer Series Gaming PC. AMD Ryzen 5 5500GT with integrated Radeon graphics, 1TB NVME SSD, 16G memory",
+    prodprice: "$720.00ex",
+    prodimage: "/products/productImage_sysegr5-1t16.jpg",
   },
   {
-    id: 1, 
-    prodid: 'sysaer556g-a', 
-    proddesc: 'AMD Atomic EX Gaming PC. With AMD Ryzen 5 5500GT 6 core CPU, integrated Radeon graphics for casual gaming, 1TB SSD, 16G DDR4 memory and RGB case.', 
-    prodprice: '$810.00ex', 
-    prodimage: '/products/productImage_sysegr5-1t16.jpg'
+    id: 1,
+    prodid: "sysaer556g-a",
+    proddesc: "AMD Atomic EX Gaming PC. With AMD Ryzen 5 5500GT 6 core CPU, integrated Radeon graphics for casual gaming, 1TB SSD, 16G DDR4 memory and RGB case.",
+    prodprice: "$810.00ex",
+    prodimage: "/products/productImage_sysegr5-1t16.jpg",
   },
   {
     id: 2, 
@@ -23,13 +24,14 @@ const products = ref([
     prodimage: '/products/productImage_sysegr5-1t16.jpg'
   }
 ])
+
 </script>
 
 <template>
   <div class="flex flex-col">
     <div class="-m-1.5 overflow-x-auto">
       <div class="p-1.5 min-w-full inline-block align-middle items-center">
-        <div class="overflow-hidden">
+        <div class="flex items-center justify-center overflow-hidden">
           <table
             class="max-w-900px divide-y divide-gray-200 dark:divide-neutral-700">
             <thead>
