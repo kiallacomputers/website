@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.vue";
 const routes = [
   { path: "/", component: Home },
   { path: "/services", component: Services },
-  // { path: '/products', component: Products },
+  { path: "/products", component: Products },
   { path: "/contact", component: Contact },
 ];
 
