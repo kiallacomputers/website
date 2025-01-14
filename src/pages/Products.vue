@@ -23,10 +23,6 @@ const products = ref([
     prodimage: '/products/productImage_sysegr5-1t16.jpg'
   }
 ])
-
-function getImageUrl(name, ext) {
-  return new URL(`${products.prodimage}`, import.meta.url).href
-}
 </script>
 
 <template>
@@ -61,7 +57,7 @@ function getImageUrl(name, ext) {
             <tbody class="divide-y divide-gray-200 dark:divide-neutral-700">
               <tr
                 class="hover:bg-gray-100 dark:hover:bg-neutral-700"
-                v-for="(product, index) in products"
+                v-for="product in products"
                 :key="product.id">
                 <td
                   class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-neutral-200 capitalize">
@@ -85,10 +81,7 @@ function getImageUrl(name, ext) {
       </div>
     </div>
   </div>
-  <!--<div v-for='(product, index) in products' :key='product.id' >
-    
-  {{ product.prodid }} - {{ product.proddesc }} 
-  </div>-->
+
 </template>
 
 <style></style>
