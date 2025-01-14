@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col mx-8 lg:mr-8 lg:ml-8 items-center justify-center">
     <div class="w-[900px] h-full text-center justify-center">
-      <p class="font-bold text-4xl font-quest text-[#144C84] mt-10 capitalize">
+      <p class="font-bold text-4xl text-[#144C84] mt-10 capitalize">
         I.T. SUPPORT
       </p>
-      <p class="font-extrabold text-2xl mb-14 font-quest text-[#144C84] capitalize">
+      <p class="font-extrabold text-2xl mb-14 text-[#144C84] capitalize">
         for home and small businesses
       </p>
     </div>
@@ -19,32 +19,50 @@
         </a>-->
       <a
         target="_blank"
-        style="background-color: #41E495; border: 2px solid #144C84; color: #144c84; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 800; font-size: 14px; cursor: pointer; display: inline-block;" href="https://tradehq.com.au/kiallacomputers/enquire" rel="nofollow" class="hover:opacity-80 transition-all #111111">
+        style="
+          background-color: #41e495;
+          border: 2px solid #144c84;
+          color: #144c84;
+          height: 48px;
+          letter-spacing: 1px;
+          line-height: 44px;
+          padding: 0 28px;
+          border-radius: 8px;
+          font-weight: 800;
+          font-size: 18px;
+          cursor: pointer;
+          display: inline-block;
+        "
+        href="https://tradehq.com.au/kiallacomputers/enquire"
+        rel="nofollow"
+        class="hover:opacity-80 transition-all #111111">
         Enquire Here
-        </a>
+      </a>
       <!-- End Square Appointments Embed code. -->
     </div>
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
-        <p class="text-lg mb-6 font-quest">
+        <p class="text-lg mb-6">
           Kialla Computers is a cutting-edge computer company dedicated to
           providing a wide range of technology solutions to meet the
           ever-evolving needs of individuals and businesses. With a passion for
           innovation and a commitment to excellence, we are your trusted partner
           in the digital age.
         </p>
-        <p class="text-lg mb-6 font-quest">
+        <p class="text-lg mb-6">
           At Kialla Computers, we believe that technology should enhance your
           life and business, not complicate it. We're here to simplify the world
           of computers and technology, ensuring that you're always connected,
           secure, and efficient.
         </p>
-        <p class="text-lg mb-6 font-quest">
+        <p class="text-lg mb-6">
           Contact us today to explore how Kialla Computers can empower your
           digital world.
         </p>
       </div>
-      <img src="../assets/it-support.jpg" class="w-[450px] hidden lg:block mt-10">
+      <img
+        src="../assets/it-support.jpg"
+        class="w-[450px] hidden lg:block mt-10" />
     </div>
 
     <!-- Start Google Reviews 
@@ -60,9 +78,10 @@
      End Facebook Reviews -->
 
     <!-- Start Local Business Guide AD-->
-    <div class="flex font-quest">
+    <div class="flex">
       <div>
-        <a href="https://www.localbusinessguide.com.au/business/kialla-computers/">
+        <a
+          href="https://www.localbusinessguide.com.au/business/kialla-computers/">
           <img src="https://www.localbusinessguide.com.au/i/logo6.png" />
           <p class="mt-1 font-bold">Find us on Local Business Guide</p>
         </a>
