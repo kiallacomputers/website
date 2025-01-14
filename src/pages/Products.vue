@@ -8,7 +8,7 @@ const products = ref([
 ])
 
 function getImageUrl(name, ext) {
-  return new URL(`./assets/products/productImage_{products.prodid}.${ext}`, import.meta.url).href
+  return new URL(`${products.prodimage}`, import.meta.url).href
 }
 </script>
 
@@ -39,10 +39,6 @@ function getImageUrl(name, ext) {
     </div>
   </div>
 </div>
-      <!--<div v-for='(product, index) in products' :key='product.id' >
-    
-  {{ product.prodid }} - {{ product.proddesc }} 
-  </div>-->
 </template>
 
 <style>
