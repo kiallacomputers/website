@@ -6,19 +6,22 @@ const products = ref([
     id: 0, prodid: 'sysegr5-1t16', 
     proddesc: 'AMD Elite Gamer Series Gaming PC. AMD Ryzen 5 5500GT with integrated Radeon graphics, 1TB NVME SSD, 16G memory', 
     prodprice: '$720.00ex', 
-    prodimage: '../assets/products/productImage_sysegr5-1t16.jpg'
+    prodimage: '/products/productImage_sysegr5-1t16.jpg'
   },
   {
     id: 1, 
     prodid: 'sysaer556g-a', 
-    proddesc: 'AMD Atomic EX Gaming PC. With AMD Ryzen 5 5500GT 6 core CPU, integrated Radeon graphics for casual gaming, 1TB SSD, 16G DDR4 memory and RGB case.', prodprice: '$810.00ex', 
-    prodimage: '../assets/products/productImage_sysegr5-1t16.jpg'
+    proddesc: 'AMD Atomic EX Gaming PC. With AMD Ryzen 5 5500GT 6 core CPU, integrated Radeon graphics for casual gaming, 1TB SSD, 16G DDR4 memory and RGB case.', 
+    prodprice: '$810.00ex', 
+    prodimage: '/products/productImage_sysegr5-1t16.jpg'
   },
   {
     id: 2, 
     prodid: 'sysegpr7-1t16', 
     proddesc: 'AMD Elite Gamer Pro Series Gaming PC. AMD Ryzen 7 5700G CPU with integrated Radeon graphics, 1TB NVME SSD, 16G Ram.', 
-    prodprice: '$850.00ex', prodimage: '../assets/products/productImage_sysegr5-1t16.jpg'}
+    prodprice: '$850.00ex', 
+    prodimage: '/products/productImage_sysegr5-1t16.jpg'
+  }
 ])
 
 function getImageUrl(name, ext) {
@@ -29,10 +32,10 @@ function getImageUrl(name, ext) {
 <template>
   <div class="flex flex-col">
     <div class="-m-1.5 overflow-x-auto">
-      <div class="p-1.5 min-w-full inline-block align-middle">
+      <div class="p-1.5 min-w-full inline-block align-middle items-center">
         <div class="overflow-hidden">
           <table
-            class="mr-10 max-w-900px divide-y divide-gray-200 dark:divide-neutral-700">
+            class="max-w-900px divide-y divide-gray-200 dark:divide-neutral-700">
             <thead>
               <tr>
                 <td
