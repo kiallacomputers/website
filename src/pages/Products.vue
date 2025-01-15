@@ -44,30 +44,30 @@ const products = ref([
               <div class="flex flex-col mt-4 w-full">
                 <div class="mb-10 mt-10 w-full">
                   <div class="flex flex-row items-center justify-center py-3 text-start text-black uppercase">
-                    <div class="flex basis-1/2 border-2">
+                    <div class="flex basis-1/4 justify-center">
                       Code
                     </div>
-                    <div class="flex basis-1/2 border-2">
+                    <div class="flex basis-1/5 justify-center">
                       &nbsp;
                     </div>
-                    <div class="flex basis-1/2 border-2">
+                    <div class="flex basis-1/2">
                       Description
                     </div>
-                    <div class="flex basis-1/2 border-2">
+                    <div class="flex basis-1/5 justify-center">
                       Price
                     </div>
                   </div>
                   <div class="flex flex-row items-center justify-center w-fullpx-6 m-w-800px py-3 text-start text-black uppercase" v-for="product in products" :key="product.id">
-                    <div class="flex items-center basis-1/2 border-2">
+                    <div class="flex items-center basis-1/4 justify-center">
                       {{ product.prodid }}
                     </div>
-                    <div class="flex border-2">
-                      <img :src="product.prodimage" width="180" />
+                    <div class="flex basis-1/5 items-center justify-center">
+                      <img :src="product.prodimage" width="100" />
                     </div>
-                    <div class="flex basis-1/2 border-2">
+                    <div class="flex basis-1/2">
                       {{ product.proddesc }}
                     </div>
-                    <div class="flex basis-1/2 border-2">
+                    <div class="flex basis-1/5 justify-center">
                       {{ product.prodprice }}
                     </div>
                   </div>
