@@ -12,32 +12,11 @@
   <div class="flex flex-col items-center justify-center">
     <div class="flex felex-col mx-8 lg:mr-8 lg:ml-0 mt-5">
       <!-- Start Square Appointments Embed code -->
-      <!--<a
+      <a
         target="_blank"
         style="background-color: #FFFFFF; border: 2px solid #144C84; color: #144c84; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 800; font-size: 14px; cursor: pointer; display: inline-block;" href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow" class="hover:opacity-80 transition-all #111111">
         BOOK A TECH
-        </a>-->
-      <a
-        target="_blank"
-        style="
-          background-color: #41e495;
-          border: 2px solid #144c84;
-          color: #144c84;
-          height: 48px;
-          letter-spacing: 1px;
-          line-height: 44px;
-          padding: 0 28px;
-          border-radius: 8px;
-          font-weight: 800;
-          font-size: 18px;
-          cursor: pointer;
-          display: inline-block;
-        "
-        href="https://tradehq.com.au/kiallacomputers/enquire"
-        rel="nofollow"
-        class="hover:opacity-80 transition-all #111111">
-        Enquire Here
-      </a>
+        </a>
       <!-- End Square Appointments Embed code. -->
     </div>
     <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
