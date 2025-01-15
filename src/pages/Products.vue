@@ -22,7 +22,14 @@ const products = ref([
     proddesc: 'AMD Elite Gamer Pro Series Gaming PC. AMD Ryzen 7 5700G CPU with integrated Radeon graphics, 1TB NVME SSD, 16G Ram.', 
     prodprice: '$850.00ex', 
     prodimage: '/products/productImage_sysegr5-1t16.jpg'
-  }
+  },
+  {
+    id: 3, 
+    prodid: 'MOAO24B20JH2', 
+    proddesc: 'AOC 24B20JH2 23.8" IPS FHD Monitor 100Hz VGA HDMI', 
+    prodprice: '$136.00ex', 
+    prodimage: '/products/productImage_MOAO24B20JH2.jpg'
+  },
 ])
 
 </script>
