@@ -19,7 +19,7 @@
 
         <div class="mb-10 flex items-center justify-center font-quest">
           <a class="font-bold" href="mailto:sales@kiallacomputers.com.au">
-            sales@kiallacomputers.com.au.
+            sales@kiallacomputers.com.au
           </a>
         </div>
 
