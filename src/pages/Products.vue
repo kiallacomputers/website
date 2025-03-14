@@ -43,8 +43,8 @@ const products = ref([
                       <img :src="product.prodimage" width="100" />
                     </div>
                     <div class="flex basis-1/2">
-                      <p>{{ product.prodtitle }}</p>
-                      <p>{{ product.proddesc }}</p>
+                      <div>{{ product.prodtitle }}</div>
+                      <div>{{ product.proddesc }}</div>
                     </div>
                     <div class="flex basis-1/5 justify-center">
                       {{ product.prodprice }}
