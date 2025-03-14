@@ -7,7 +7,7 @@ const products = ref([
     prodid: "officepackage1",
     proddesc:
       "Complete office PC package, AMD Ryzen 5500 CPU, MSI B450M Motherboard, 16GB Corsair DD4 Memory, 1TB Gen4 NVMe SSD Hard Drive, Cougar Purity Black Case, 650W power Supply, Shintaro Mouse & Keyboard, AOC 24inch 100Hz Monitor, Windows 11 Pro.",
-    prodprice: "$812.00ex",
+    prodprice: "$830.00ex",
     prodimage: "/products/productImage_officepackage1.jpg",
   },
 ]);
