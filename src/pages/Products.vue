@@ -5,8 +5,9 @@ const products = ref([
   {
     id: 0,
     prodid: "officepackage1",
+    prodtitle: "Basic Office Package",
     proddesc:
-      "Complete office PC package<BR /> AMD Ryzen 5500 CPU, MSI B450M Motherboard, 16GB Corsair DD4 Memory, 1TB Gen4 NVMe SSD Hard Drive, Cougar Purity Black Case, 650W power Supply, Shintaro Mouse & Keyboard, AOC 24inch 100Hz Monitor, Windows 11 Pro.",
+      "AMD Ryzen 5500 CPU, MSI B450M Motherboard, 16GB Corsair DD4 Memory, 1TB Gen4 NVMe SSD Hard Drive, Cougar Purity Black Case, 650W power Supply, Shintaro Mouse & Keyboard, AOC 24inch 100Hz Monitor, Windows 11 Pro.",
     prodprice: "$830.00ex",
     prodimage: "/products/productImage_officepackage1.jpg",
   },
@@ -42,7 +43,8 @@ const products = ref([
                       <img :src="product.prodimage" width="100" />
                     </div>
                     <div class="flex basis-1/2">
-                      {{ product.proddesc }}
+                      <p>{{ product.prodtitle }}</p>
+                      <p>{{ product.proddesc }}</p>
                     </div>
                     <div class="flex basis-1/5 justify-center">
                       {{ product.prodprice }}
