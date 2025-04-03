@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ProductCard from "../components/ProductCard.vue";
+import products from "../stores/products";
 
 import { ref } from "vue";
 
@@ -8,29 +9,6 @@ function calculatePrecentage(percent, num) {
   let newprice = num - discount;
   return newprice.toFixed(0);
 }
-
-const products = ref([
-  {
-    id: 0,
-    prodid: "officepackage1",
-    prodtitle: "Basic Office Package",
-    proddesc:
-      "AMD Ryzen 5500 CPU, MSI B450M Motherboard, 16GB Corsair DD4 Memory, 1TB Gen4 NVMe SSD Hard Drive, Cougar Purity Black Case, 650W power Supply, Shintaro Mouse & Keyboard, AOC 24inch 100Hz Monitor, Windows 11 Pro.",
-    prodprice: "999",
-    prodpercentoff: "",
-    prodimage: "/products/productImage_officepackage1.jpg",
-  },
-  {
-    id: 1,
-    prodid: "officepackage2",
-    prodtitle: "Basic Office Package 2",
-    proddesc:
-      "AMD Ryzen 5500 CPU, MSI B450M Motherboard, 16GB Corsair DD4 Memory, 1TB Gen4 NVMe SSD Hard Drive, Cougar Purity Black Case, 650W power Supply, Shintaro Mouse & Keyboard, AOC 24inch 100Hz Monitor, Windows 11 Pro.",
-    prodprice: "1100",
-    prodpercentoff: "15",
-    prodimage: "/products/productImage_officepackage1.jpg",
-  },
-]);
 </script>
 
 <template>
@@ -43,7 +21,7 @@ const products = ref([
               <div class="flex flex-col mt-4 w-full">
                 <div class="mb-10 mt-10 w-full">
                   <div
-                    class="flex flex-row items-center justify-center w-fullpx-6 m-w-800px py-3 text-start text-black uppercase"
+                    class="flex items-center justify-center w-fullpx-6 m-w-800px py-3 text-start text-black uppercase"
                     v-for="product in products"
                     :key="product.id"
                   >
@@ -74,7 +52,7 @@ const products = ref([
                         </div>
                         <span
                           v-if="product.prodpercentoff"
-                          class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white"
+                          class="absolute top-0 left-0 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white"
                           >{{ product.prodpercentoff }}% OFF</span
                         >
                       </a>
@@ -105,9 +83,8 @@ const products = ref([
                             >
                             <span
                               v-if="product.prodpercentoff"
-                              class="text-base font-bold text-red-900 line-through"
-                            >
-                              ${{ product.prodprice }}</span
+                              class="text-base font-bold text-red-600 line-through"
+                              >${{ product.prodprice }}</span
                             >
                           </p>
                         </div>
