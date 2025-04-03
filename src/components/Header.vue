@@ -16,14 +16,14 @@
         </div>
       </router-link>
       <div class="grow"></div>
-      <!--
       <router-link to="/products">
         <div
-          class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all">
+          class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all"
+        >
           Products
         </div>
       </router-link>
-      <div class="grow"></div>-->
+      <div class="grow"></div>
       <router-link to="/contact">
         <div
           class="px-2 md:text-lg cursor-pointer hover:opacity-70 transition-all"
