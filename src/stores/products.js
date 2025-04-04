@@ -10,7 +10,7 @@ const products = [
     prodimage: "/products/productImage_officepackage1.jpg",
     },
      {
-     id: 0,
+     id: 1,
     prodid: "officepackage2",
     prodtitle: "Basic Office Package No. 2",
     proddesc:
