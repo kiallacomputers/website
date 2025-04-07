@@ -14,7 +14,7 @@ function calculatePrecentage(percent, num) {
 <template>
   <div class="flex flex-wrap items-center justify-center">
     <div
-      class="flex items-center justify-center m-w-800px px-3 py-3 text-start text-black uppercase"
+      class="flex items-center justify-center min-w-[350px] px-3 py-3 text-start text-black uppercase"
       v-for="product in products"
       :key="product.id"
     >
