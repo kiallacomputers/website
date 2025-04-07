@@ -12,9 +12,9 @@ function calculatePrecentage(percent, num) {
 </script>
 
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-wrap items-center justify-center">
     <div
-      class="flex items-center justify-center w-fullpx-6 m-w-800px py-3 text-start text-black uppercase"
+      class="flex items-center justify-center w-fullpx-6 m-w-800px px-3 py-3 text-start text-black uppercase"
       v-for="product in products"
       :key="product.id"
     >
