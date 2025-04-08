@@ -40,11 +40,20 @@ function calculatePrecentage(percent, num) {
           >
         </a>
         <div class="mt-4 px-5 pb-5">
-          <a href="#">
-            <h5 class="text-xl tracking-tight text-slate-900">
-              {{ product.prodtitle }}
-            </h5>
-          </a>
+          <div class="items-center justify-between">
+            <a href="#">
+              <h5 class="text-xl tracking-tight text-slate-900">
+                {{ product.prodtitle }}
+              </h5>
+            </a>
+          </div>
+          <div
+            class="mt-2 mb-5 flex flex-col items-center justify-between text-sm"
+          >
+            <a v-for="desc in product.proddesc">
+              {{ desc }}
+            </a>
+          </div>
           <div class="mt-2 mb-5 flex items-center justify-between">
             <p>
               <span
