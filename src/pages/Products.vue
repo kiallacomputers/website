@@ -7,7 +7,7 @@ import { ref } from "vue";
 function calculatePrecentage(percent, num) {
   let discount = num * (percent / 100);
   let newprice = num - discount;
-  return newprice.toFixed(0);
+  return newprice.toFixed(2);
 }
 </script>
 
