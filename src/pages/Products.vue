@@ -40,7 +40,7 @@ function calculatePrecentage(percent, num) {
           >
         </a>
         <div class="mt-4 px-5 pb-5">
-          <div class="items-center justify-between">
+          <div class="text-center">
             <a href="#">
               <h5 class="text-xl tracking-tight text-slate-900">
                 {{ product.prodtitle }}
