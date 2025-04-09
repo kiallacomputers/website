@@ -4,7 +4,7 @@ const products = [
     prodid: "officepackage1",
     prodtitle: "Office Package no.1",
     proddesc: ["AMD Ryzen 3 4100 CPU 4 Core", "B450M PRO-VDH MAX - MSI B450M PRO-VDH MAX AM4 Motherboard", "Intergrated onboard graphics", "16GB DDR4 Memory", "1TB Gen4 NVMe SSD Hard Drive", "Antec Black Case", "500W power Supply", "Windows 11 Pro"],
-    prodprice: "780.00",
+    prodprice: "800.00",
     prodpercentoff: "10",
     prodimage: "/products/office1.jpg",
     },
