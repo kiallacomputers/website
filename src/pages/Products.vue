@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ProductCard from "../components/ProductCard.vue";
 import products from "../stores/products";
+import catergories from "../stores/catergories";
 
 import { ref } from "vue";
 
@@ -12,6 +13,16 @@ function calculatePrecentage(percent, num) {
 </script>
 
 <template>
+  <div class="flex flex-wrap items-center justify-center">
+    <div class="uppercase" v-for="catergory in catergories">
+      <button
+        class="flex uppercase items-center justify-center rounded-md bg-blue-900 py-2 px-2 ml-2 text-center text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-900"
+        href="#"
+      >
+        {{ catergory.catergory }}
+      </button>
+    </div>
+  </div>
   <div class="flex flex-wrap items-center justify-center">
     <div
       class="flex items-center justify-center min-w-[350px] px-2 py-2 text-start text-black uppercase"
