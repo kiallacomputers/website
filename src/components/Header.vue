@@ -15,7 +15,7 @@
           Services
         </div>
       </router-link>
-      <div class="grow"></div>
+      <div class=""></div>
       <router-link to="/products">
         <div
           class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all text-blue-900"
@@ -23,7 +23,7 @@
           Products
         </div>
       </router-link>
-      <div class="grow"></div>
+      <div class=""></div>
       <router-link to="/contact">
         <div
           class="px-2 md:text-lg cursor-pointer hover:opacity-70 transition-all text-blue-900"
