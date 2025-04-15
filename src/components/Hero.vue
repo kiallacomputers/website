@@ -10,15 +10,15 @@
     </div>
   </div>
   <div class="flex flex-col items-center justify-center">
-    <div class="flex felex-col mx-8 lg:mr-8 lg:ml-0 mt-5">
-      <!-- Start Square Appointments Embed code
+    <!-- <div class="flex felex-col mx-8 lg:mr-8 lg:ml-0 mt-5">
+       Start Square Appointments Embed code
       <a
         target="_blank"
         style="background-color: #FFFFFF; border: 2px solid #144C84; color: #144c84; height: 40px; font-family: 'Questrial'; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 8px; font-weight: 800; font-size: 14px; cursor: pointer; display: inline-block;" href="https://squareup.com/appointments/book/skj9f2rh200xeg/LKXD0VFGAAZNS/start" rel="nofollow" class="hover:opacity-80 transition-all #111111">
         BOOK A TECH
         </a>
-      End Square Appointments Embed code. -->
-    </div>
+      End Square Appointments Embed code. 
+    </div>-->
     <div
       class="flex w-[900px] max-w-full min-w-0 items-center mt-8 content-center"
     >
@@ -30,6 +30,10 @@
           innovation and a commitment to excellence, we are your trusted partner
           in the digital age.
         </p>
+        <img
+          src="../assets/computers.jpg"
+          class="w-[500px] hidden self-center lg:block mb-6 rounded-2xl"
+        />
         <p class="text-lg mb-6">
           At Kialla Computers, we believe that technology should enhance your
           life and business, not complicate it. We're here to simplify the world
@@ -41,35 +45,6 @@
           digital world.
         </p>
       </div>
-      <img
-        src="../assets/computers.jpg"
-        class="w-[400px] hidden lg:block mt-10 rounded-2xl"
-      />
     </div>
-
-    <!-- Start Google Reviews 
-    <div class="flex w-[900px] h-[650px] max-w-full min-w-0  max-h-full min-h-0 items-center mt-8">
-      <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/228283' class="w-full h-full"></iframe>
-    </div>
-     End Google Reviews -->
-
-    <!-- Start Facebook Reviews 
-    <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
-      <iframe src='https://widgets.sociablekit.com/facebook-page-reviews/iframe/228286' frameborder='1' width='100%' height='1450'></iframe>
-    </div>
-     End Facebook Reviews -->
-
-    <!-- Start Local Business Guide AD-->
-    <div class="flex">
-      <div>
-        <a
-          href="https://www.localbusinessguide.com.au/business/kialla-computers/"
-        >
-          <img src="https://www.localbusinessguide.com.au/i/logo6.png" />
-          <p class="mt-1 font-bold">Find us on Local Business Guide</p>
-        </a>
-      </div>
-    </div>
-    <!-- End Local Business Guide AD-->
   </div>
 </template>
