@@ -10,14 +10,19 @@ function calculatePrecentage(percent, num) {
   let newprice = num - discount;
   return newprice.toFixed(2);
 }
+
+function catfunc(ev) {
+  let cat = ev;
+  console.log(cat);
+}
 </script>
 
 <template>
   <div class="flex flex-wrap items-center justify-center">
     <div class="uppercase" v-for="catergory in catergories">
       <button
-        class="flex uppercase items-center justify-center rounded-md bg-blue-900 py-2 px-2 ml-2 text-center text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-900"
-        href="#"
+        @click="catfunc(catergory.id)"
+        class="flex uppercase items-center justify-center rounded-md bg-blue-900 py-1 px-2 ml-2 text-center text-sm font-medium text-green-300 hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-900"
       >
         {{ catergory.catergory }}
       </button>
@@ -29,7 +34,7 @@ function calculatePrecentage(percent, num) {
       v-for="product in products"
       :key="product.id"
     >
-      <!-- Product Card-->
+      <!-- Product Card -->
       <div
         class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md"
       >
@@ -109,6 +114,7 @@ function calculatePrecentage(percent, num) {
           >
         </div>
       </div>
+      <!-- Product Card -->
     </div>
   </div>
 </template>

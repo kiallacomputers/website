@@ -19,7 +19,9 @@
         </a>
       End Square Appointments Embed code. -->
     </div>
-    <div class="flex w-[900px] max-w-full min-w-0 items-center mt-8">
+    <div
+      class="flex w-[900px] max-w-full min-w-0 items-center mt-8 content-center"
+    >
       <div class="flex flex-col mx-8 lg:mr-8 lg:ml-0">
         <p class="text-lg mb-6">
           Kialla Computers is a cutting-edge computer company dedicated to
@@ -40,8 +42,9 @@
         </p>
       </div>
       <img
-        src="../assets/it-support.jpg"
-        class="w-[450px] hidden lg:block mt-10" />
+        src="../assets/computers.jpg"
+        class="w-[400px] hidden lg:block mt-10 rounded-2xl"
+      />
     </div>
 
     <!-- Start Google Reviews 
@@ -60,7 +63,8 @@
     <div class="flex">
       <div>
         <a
-          href="https://www.localbusinessguide.com.au/business/kialla-computers/">
+          href="https://www.localbusinessguide.com.au/business/kialla-computers/"
+        >
           <img src="https://www.localbusinessguide.com.au/i/logo6.png" />
           <p class="mt-1 font-bold">Find us on Local Business Guide</p>
         </a>

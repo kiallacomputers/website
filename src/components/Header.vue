@@ -10,7 +10,7 @@
       <div class="grow"></div>
       <router-link to="/services">
         <div
-          class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all .inter"
+          class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all .inter text-blue-900"
         >
           Services
         </div>
@@ -18,7 +18,7 @@
       <div class="grow"></div>
       <router-link to="/products">
         <div
-          class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all"
+          class="px-4 md:text-lg cursor-pointer hover:opacity-70 transition-all text-blue-900"
         >
           Products
         </div>
@@ -26,7 +26,7 @@
       <div class="grow"></div>
       <router-link to="/contact">
         <div
-          class="px-2 md:text-lg cursor-pointer hover:opacity-70 transition-all"
+          class="px-2 md:text-lg cursor-pointer hover:opacity-70 transition-all text-blue-900"
         >
           Contact Us
         </div>
