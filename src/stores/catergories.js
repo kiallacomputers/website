@@ -1,19 +1,23 @@
 const catergories = [
   {
     id: 0,
-    catergory: 'computers',
+    catergory: 'Computers',
   },
   {
     id: 1,
-    catergory: 'headsets',
+    catergory: 'Headsets',
   },
   {
     id: 2,
-    catergory: 'notebook',
+    catergory: 'Notebook',
   },
   {
     id: 3,
-    catergory: 'monitors',
+    catergory: 'Monitors',
+  },
+  {
+    id: 4,
+    catergory: 'Video Cards',
   },
 ];
 export default catergories;

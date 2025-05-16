@@ -30,7 +30,7 @@ function catfunc(ev) {
   </div>
   <div class="flex flex-wrap items-center justify-center">
     <div
-      class="flex items-center justify-center min-w-[350px] px-2 py-2 text-start text-black uppercase"
+      class="flex items-center justify-center min-w-[350px] max-h-full px-2 py-2 text-start text-black uppercase"
       v-for="product in products"
       :key="product.id"
     >
