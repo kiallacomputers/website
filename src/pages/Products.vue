@@ -34,7 +34,7 @@ function catfunc(ev) {
       v-for="product in products"
       :key="product.id"
     >
-      <!-- Product Card -->
+      <!-- Product Card. -->
       <div
         class="group my-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md"
       >
