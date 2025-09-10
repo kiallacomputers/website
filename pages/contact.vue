@@ -1,10 +1,13 @@
 <script setup>
+<<<<<<< HEAD
 import { useHead } from '#app';
 
 useHead({
   title: 'Kialla Computers - Contact Us',
 });
 
+=======
+>>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
 definePageMeta({
   layout: "landing",
 });
@@ -14,7 +17,11 @@ definePageMeta({
   <LandingContainer>
     <LandingSectionhead>
       <template v-slot:title>Contact</template>
+<<<<<<< HEAD
       <template v-slot:desc>We are here to help.</template>
+=======
+      <template v-slot:desc>I am here to help.</template>
+>>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
     </LandingSectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">

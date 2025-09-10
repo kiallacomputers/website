@@ -5,7 +5,11 @@ defineProps(["plan"]);
 <template>
   <div>
     <div
+<<<<<<< HEAD
       class="flex flex-col h-[550px] w-[310px] order-first lg:order-none border-2 border-[#D8DEE9] border-opacity-50 py-5 px-6 rounded-md"
+=======
+      class="flex flex-col h-[550px] w-full order-first lg:order-none border-2 border-[#D8DEE9] border-opacity-50 py-5 px-6 rounded-md"
+>>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
     >
       <div class="text-center">
         <h4 class="text-lg font-medium text-ServiceHeader">{{ plan.name }}</h4>
@@ -33,7 +37,11 @@ defineProps(["plan"]);
           <span>{{ item }}</span>
         </li>
       </ul>
+<<<<<<< HEAD
       <div class="flex mt-8 mt-auto">
+=======
+      <div class="flex mt-8">
+>>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
         <LandingLink
           :href="plan.button.link || '#'"
           block

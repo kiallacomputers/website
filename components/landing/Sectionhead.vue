@@ -14,7 +14,11 @@ defineProps({
       <slot name="title">Title</slot>
     </h1>
     <p class="text-lg mt-4 text-PageHeaderLight">
+<<<<<<< HEAD
       <slot name="desc"></slot>
+=======
+      <slot name="desc">Some description goes here</slot>
+>>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
     </p>
   </div>
 </template>

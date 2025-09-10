@@ -24,6 +24,7 @@ export default {
         InputBorder: "#2CB6D5",
         InputBorderFocus: "#404E71",
         InputBorderRing: "#2CB6D5",
+<<<<<<< HEAD
 
         ButtonPrimary: "#596F95",
         ButtonPrimaryText: "#404E71",
@@ -35,6 +36,18 @@ export default {
         ButtonOutline: "#2CB6D5",
         ButtonOutlineHover: "#8BD0DF",
         ButtonOutlineHoverText: "#404E71",
+=======
+        ButtonPrimary: "#596F95",
+        ButtonPrimaryHover: "#8BD0DF",
+        ButtonPrimaryHoverText: "#596F95",
+        ButtonOutline: "#596F95",
+        ButtonOutlineHover: "#8BD0DF",
+        ButtonOutlineHoverText: "#596F95",
+
+        ButtonLight: "#8BD0DF",
+        ButtonPrimaryText: "#8BD0DF",
+        ButtonText: "#596F95",
+>>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
 
         IconColor: "#BED2EF",
 
