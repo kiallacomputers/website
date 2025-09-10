@@ -15,7 +15,11 @@ interface _GlobalComponents {
       'LandingButton': typeof import("../components/landing/Button.vue")['default']
     'LandingContactform': typeof import("../components/landing/Contactform.vue")['default']
     'LandingContainer': typeof import("../components/landing/Container.vue")['default']
+    'LandingCsContactForm': typeof import("../components/landing/CsContactForm.vue")['default']
+    'LandingCsc': typeof import("../components/landing/Csc.vue")['default']
     'LandingCta': typeof import("../components/landing/Cta.vue")['default']
+    'LandingDrContactForm': typeof import("../components/landing/DrContactForm.vue")['default']
+    'LandingDrc': typeof import("../components/landing/Drc.vue")['default']
     'LandingFeatures': typeof import("../components/landing/Features.vue")['default']
     'LandingFooter': typeof import("../components/landing/Footer.vue")['default']
     'LandingHero': typeof import("../components/landing/Hero.vue")['default']
@@ -25,6 +29,8 @@ interface _GlobalComponents {
     'LandingPricing': typeof import("../components/landing/Pricing.vue")['default']
     'LandingSectionhead': typeof import("../components/landing/Sectionhead.vue")['default']
     'LandingTick': typeof import("../components/landing/Tick.vue")['default']
+    'LandingVcContactForm': typeof import("../components/landing/VcContactForm.vue")['default']
+    'LandingVcc': typeof import("../components/landing/Vcc.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -54,7 +60,11 @@ interface _GlobalComponents {
       'LazyLandingButton': LazyComponent<typeof import("../components/landing/Button.vue")['default']>
     'LazyLandingContactform': LazyComponent<typeof import("../components/landing/Contactform.vue")['default']>
     'LazyLandingContainer': LazyComponent<typeof import("../components/landing/Container.vue")['default']>
+    'LazyLandingCsContactForm': LazyComponent<typeof import("../components/landing/CsContactForm.vue")['default']>
+    'LazyLandingCsc': LazyComponent<typeof import("../components/landing/Csc.vue")['default']>
     'LazyLandingCta': LazyComponent<typeof import("../components/landing/Cta.vue")['default']>
+    'LazyLandingDrContactForm': LazyComponent<typeof import("../components/landing/DrContactForm.vue")['default']>
+    'LazyLandingDrc': LazyComponent<typeof import("../components/landing/Drc.vue")['default']>
     'LazyLandingFeatures': LazyComponent<typeof import("../components/landing/Features.vue")['default']>
     'LazyLandingFooter': LazyComponent<typeof import("../components/landing/Footer.vue")['default']>
     'LazyLandingHero': LazyComponent<typeof import("../components/landing/Hero.vue")['default']>
@@ -64,6 +74,8 @@ interface _GlobalComponents {
     'LazyLandingPricing': LazyComponent<typeof import("../components/landing/Pricing.vue")['default']>
     'LazyLandingSectionhead': LazyComponent<typeof import("../components/landing/Sectionhead.vue")['default']>
     'LazyLandingTick': LazyComponent<typeof import("../components/landing/Tick.vue")['default']>
+    'LazyLandingVcContactForm': LazyComponent<typeof import("../components/landing/VcContactForm.vue")['default']>
+    'LazyLandingVcc': LazyComponent<typeof import("../components/landing/Vcc.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
     'LazyNuxtErrorBoundary': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -99,7 +111,11 @@ declare module 'vue' {
 export const LandingButton: typeof import("../components/landing/Button.vue")['default']
 export const LandingContactform: typeof import("../components/landing/Contactform.vue")['default']
 export const LandingContainer: typeof import("../components/landing/Container.vue")['default']
+export const LandingCsContactForm: typeof import("../components/landing/CsContactForm.vue")['default']
+export const LandingCsc: typeof import("../components/landing/Csc.vue")['default']
 export const LandingCta: typeof import("../components/landing/Cta.vue")['default']
+export const LandingDrContactForm: typeof import("../components/landing/DrContactForm.vue")['default']
+export const LandingDrc: typeof import("../components/landing/Drc.vue")['default']
 export const LandingFeatures: typeof import("../components/landing/Features.vue")['default']
 export const LandingFooter: typeof import("../components/landing/Footer.vue")['default']
 export const LandingHero: typeof import("../components/landing/Hero.vue")['default']
@@ -109,6 +125,8 @@ export const LandingNavbar: typeof import("../components/landing/Navbar.vue")['d
 export const LandingPricing: typeof import("../components/landing/Pricing.vue")['default']
 export const LandingSectionhead: typeof import("../components/landing/Sectionhead.vue")['default']
 export const LandingTick: typeof import("../components/landing/Tick.vue")['default']
+export const LandingVcContactForm: typeof import("../components/landing/VcContactForm.vue")['default']
+export const LandingVcc: typeof import("../components/landing/Vcc.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -138,7 +156,11 @@ export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/co
 export const LazyLandingButton: LazyComponent<typeof import("../components/landing/Button.vue")['default']>
 export const LazyLandingContactform: LazyComponent<typeof import("../components/landing/Contactform.vue")['default']>
 export const LazyLandingContainer: LazyComponent<typeof import("../components/landing/Container.vue")['default']>
+export const LazyLandingCsContactForm: LazyComponent<typeof import("../components/landing/CsContactForm.vue")['default']>
+export const LazyLandingCsc: LazyComponent<typeof import("../components/landing/Csc.vue")['default']>
 export const LazyLandingCta: LazyComponent<typeof import("../components/landing/Cta.vue")['default']>
+export const LazyLandingDrContactForm: LazyComponent<typeof import("../components/landing/DrContactForm.vue")['default']>
+export const LazyLandingDrc: LazyComponent<typeof import("../components/landing/Drc.vue")['default']>
 export const LazyLandingFeatures: LazyComponent<typeof import("../components/landing/Features.vue")['default']>
 export const LazyLandingFooter: LazyComponent<typeof import("../components/landing/Footer.vue")['default']>
 export const LazyLandingHero: LazyComponent<typeof import("../components/landing/Hero.vue")['default']>
@@ -148,6 +170,8 @@ export const LazyLandingNavbar: LazyComponent<typeof import("../components/landi
 export const LazyLandingPricing: LazyComponent<typeof import("../components/landing/Pricing.vue")['default']>
 export const LazyLandingSectionhead: LazyComponent<typeof import("../components/landing/Sectionhead.vue")['default']>
 export const LazyLandingTick: LazyComponent<typeof import("../components/landing/Tick.vue")['default']>
+export const LazyLandingVcContactForm: LazyComponent<typeof import("../components/landing/VcContactForm.vue")['default']>
+export const LazyLandingVcc: LazyComponent<typeof import("../components/landing/Vcc.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
 export const LazyNuxtErrorBoundary: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>

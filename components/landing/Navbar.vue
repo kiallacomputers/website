@@ -2,7 +2,6 @@
 const menuitems = [
   {
     title: "Services",
-<<<<<<< HEAD
     path: "services",
   },
   {
@@ -12,17 +11,6 @@ const menuitems = [
   {
     title: "Contact",
     path: "contact",
-=======
-    path: "/services",
-  },
-  {
-    title: "About",
-    path: "/about",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
->>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
   },
 ];
 
@@ -33,19 +21,11 @@ const open = ref(false);
   <LandingContainer>
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
-<<<<<<< HEAD
         <NuxtLink to="/" class="text-lg flex items-center"
           ><img class="w-[100px]" src="/public/KC_Logo_300x300.png" />
           <span class="font-bold ml-5 text-Primary">Kialla</span
           ><span class="text-PrimaryLight">Computers</span>
           </Nuxtlink>
-=======
-        <a href="/" class="text-lg flex items-center"
-          ><img class="w-[100px]" src="/public/KC_Logo_300x300.png" />
-          <span class="font-bold ml-5 text-Primary">Kialla</span
-          ><span class="text-PrimaryLight">Computers</span>
-        </a>
->>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-Primary">
             <svg
@@ -76,21 +56,12 @@ const open = ref(false);
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           <li v-for="item of menuitems">
-<<<<<<< HEAD
             <NuxtLink
               :to="item.path"
               class="flex lg:px-3 py-2 text-PrimaryLight hover:text-Primary"
             >
               {{ item.title }}
           </NuxtLink>
-=======
-            <a
-              :href="item.path"
-              class="flex lg:px-3 py-2 text-PrimaryLight hover:text-Primary"
-            >
-              {{ item.title }}
-            </a>
->>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
           </li>
         </ul>
         <!--        <div class="lg:hidden flex items-center mt-3 gap-4">

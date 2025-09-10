@@ -20,15 +20,9 @@ const sizes = {
 
 const styles = {
   outline:
-<<<<<<< HEAD
     "border-2 border-ButtonOutline hover:bg-ButtonOutline text-ButtonOutline hover:text-ButtonOutlineHoverText",
   primary:
     "bg-ButtonPrimaryBg text-ButtonPrimaryText hover:bg-ButtonPrimaryHover hover:border-ButtonPrimaryHoverB hover:text-ButtonPrimaryHoverText border-2 border-transparent",
-=======
-    "bg-white border-2 border-ButtonPrimary hover:bg-ButtonLight text-ButtonText",
-  primary:
-    "bg-ButtonPrimary text-ButtonPrimaryText hover:bg-ButtonLight hover:text-ButtonText hover:border-ButtonPrimary border-2 border-transparent",
->>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
   inverted: "bg-white text-black border-2 border-transparent",
   muted: "bg-gray-100 hover:bg-gray-200 border-2 border-transparent",
 };
@@ -36,17 +30,10 @@ const styles = {
 
 <template>
   <NuxtLink
-<<<<<<< HEAD
     :to="href"
     :class="[
       'rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200',
       block && 'w-full font-bold',
-=======
-    :href="href"
-    :class="[
-      'rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200',
-      block && 'w-full',
->>>>>>> 1806ee6291393952912ed735a7e6686f13609e26
       sizes[size],
       styles[styleName],
     ]"
