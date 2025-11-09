@@ -13,6 +13,6 @@ if (import.meta.hot) {
   })
 }
 
-import cfg0 from "F:/Sites/ella/app.config.ts"
+import cfg0 from "F:/Sites/KiallaComputersProd/app.config.ts"
 
 export default /*@__PURE__*/ defuFn(cfg0, inlineConfig)
