@@ -1,6 +1,10 @@
 <script setup>
 const menuitems = [
   {
+    title: "Specials",
+    path: "specials",
+  },
+  {
     title: "Services",
     path: "services",
   },
@@ -25,7 +29,7 @@ const open = ref(false);
           ><img class="w-[100px]" src="/public/KC_Logo_300x300.png" />
           <span class="font-bold ml-5 text-Primary">Kialla</span
           ><span class="text-PrimaryLight">Computers</span>
-          </Nuxtlink>
+        </NuxtLink>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-Primary">
             <svg
@@ -61,7 +65,7 @@ const open = ref(false);
               class="flex lg:px-3 py-2 text-PrimaryLight hover:text-Primary"
             >
               {{ item.title }}
-          </NuxtLink>
+            </NuxtLink>
           </li>
         </ul>
         <!--        <div class="lg:hidden flex items-center mt-3 gap-4">
