@@ -26,6 +26,24 @@ const specials = [
       link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
     },
   },
+  {
+    name: "Asus Expertbook P1",
+    price: "$1250.00",
+    popular: true,
+    features: [
+      "Intel i5-13420H",
+      "15.6inch Screen",
+      "16G DDR Memory",
+      "512G SSD Hard Drive",
+      "Windows 11 pro",
+      "",
+    ],
+    image: "nbasp1503cva-50.jpg",
+    button: {
+      text: "Enquire",
+      link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
+    },
+  },
 ];
 </script>
 
