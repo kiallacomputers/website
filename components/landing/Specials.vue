@@ -5,18 +5,20 @@ defineProps(["plan"]);
 <template>
   <div>
     <div
-      class="flex flex-col items-stretch h-[800px] w-[310px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
+      class="flex flex-col items-stretch h-[750px] lg:h-[800px] w-[250px] lg:w-[310px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
     >
       <div class="text-center">
-        <h4 class="text-lg font-medium text-ServiceHeader">{{ plan.name }}</h4>
+        <h4 class="text-md lg:text-lg font-medium text-ServiceHeader">
+          {{ plan.name }}
+        </h4>
         <p v-if="plan.image">
           <img :src="`/img/products/${plan.image}`" />
         </p>
-        <p class="text-4xl font-bold text-SpecialPrice md:text-3xl">
+        <p class="text-2xl lg:text-4xl font-bold text-SpecialPrice md:text-3xl">
           {{ plan.spec }}
         </p>
         <p
-          class="text-4xl font-bold text-ServicePriceOrg md:text-xl line-through text-opacity-50"
+          class="text-xl lg:text-4xl font-bold text-ServicePriceOrg md:text-xl line-through text-opacity-50"
         >
           {{
             plan.price && typeof plan.price === "object"
@@ -38,7 +40,7 @@ defineProps(["plan"]);
           class="flex items-start gap-3 text-ServiceItems"
         >
           <LandingTick v-if="item" className="w-6 h-6" />
-          <span>{{ item }}</span>
+          <span class="sm:text-sm">{{ item }}</span>
         </li>
       </ul>
       <div class="flex mt-8 mt-auto">
