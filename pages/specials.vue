@@ -10,7 +10,7 @@ useHead({
 const Specials = [
   {
     name: "MSI Modern 15 F13MG-218AU Notebook",
-    price: "$66/H",
+    price: "$1150.00",
     popular: true,
     features: [
       "Intel i7-1355U",
