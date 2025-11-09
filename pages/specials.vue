@@ -20,7 +20,7 @@ const specials = [
       "Windows 11",
       "",
     ],
-    image: "", // nbm15f13mg218.jpg
+    image: "nbm15f13mg218.jpg",
     button: {
       text: "Enquire",
       link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
