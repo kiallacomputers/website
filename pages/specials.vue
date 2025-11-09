@@ -32,7 +32,7 @@ const Specials = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>KC Specials</template>
+      <template v-slot:title>Specials</template>
       <template v-slot:desc>Simple & Afforable pricing. No Surprises.</template>
     </LandingSectionhead>
 

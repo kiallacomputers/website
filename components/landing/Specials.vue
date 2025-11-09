@@ -11,6 +11,9 @@ defineProps(["special"]);
         <h4 class="text-lg font-medium text-ServiceHeader">
           {{ special.name }}
         </h4>
+        <!--        <p>
+          <img src="~/assets/img/">
+        </p>-->
         <p class="mt-3 text-4xl font-bold text-ServicePrice md:text-4xl">
           {{
             special.price && typeof special.price === "object"
