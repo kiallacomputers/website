@@ -5,7 +5,7 @@ defineProps(["plan"]);
 <template>
   <div>
     <div
-      class="flex flex-col h-[850px] w-[310px] order-first lg:order-none border-2 border-[#D8DEE9] border-opacity-50 py-5 px-6 rounded-lg"
+      class="grid grid-cols-4 gap-4 h-[850px] w-[310px] order-first lg:order-none border-4 border-[#D8DEE9] border-opacity-50 py-5 px-6 rounded-lg"
     >
       <div class="text-center">
         <h4 class="text-lg font-medium text-ServiceHeader">{{ plan.name }}</h4>
