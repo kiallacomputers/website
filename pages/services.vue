@@ -67,7 +67,9 @@ const pricing = [
       <template v-slot:desc>Simple & Afforable pricing. No Surprises.</template>
     </LandingSectionhead>
 
-    <div class="grid md:grid-flow-col gap-10 mx-auto max-w-screen-lg mt-12">
+    <div
+      class="grid md:grid-cols-3 grid-cols-1 gap-10 mx-auto max-w-screen-lg mt-12"
+    >
       <LandingPricing v-for="item of pricing" :plan="item" />
     </div>
   </LandingContainer>

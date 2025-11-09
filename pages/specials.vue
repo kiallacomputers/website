@@ -86,12 +86,12 @@ const specials = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Services</template>
-      <template v-slot:desc>Simple & Afforable pricing. No Surprises.</template>
+      <template v-slot:title>Specials</template>
+      <template v-slot:desc>Afforable pricing. No Surprises.</template>
     </LandingSectionhead>
 
     <div
-      class="grid grid-cols-3 smgrid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12"
+      class="grid md:grid-cols-3 grid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12"
     >
       <LandingSpecials v-for="item of specials" :plan="item" />
     </div>
