@@ -62,6 +62,24 @@ const specials = [
       link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
     },
   },
+  {
+    name: "Asus Expoertbook P5",
+    price: "$2200.00",
+    popular: true,
+    features: [
+      "Intel i5",
+      "14inch Screen",
+      "16G DDR Memory",
+      "512G M.2 2280 NVME PCIe 4.0 SSD Hard Drive",
+      "Windows 11 pro",
+      "",
+    ],
+    image: "nbasp5405csa-41.jpg",
+    button: {
+      text: "Enquire",
+      link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
+    },
+  },
 ];
 </script>
 
