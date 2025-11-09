@@ -10,7 +10,9 @@ useHead({
 const specials = [
   {
     name: "MSI Modern 15 F13MG-218AU",
-    price: "$1150.00",
+    price: "$1180.00",
+    spec: "$1060.00",
+    cost: "$825.00",
     popular: true,
     features: [
       "Intel i7-1355U",
@@ -29,6 +31,8 @@ const specials = [
   {
     name: "Asus Expertbook P1",
     price: "$1250.00",
+    spec: "$1125.00",
+    cost: "$875.00",
     popular: true,
     features: [
       "Intel i5-13420H",
@@ -46,7 +50,9 @@ const specials = [
   },
   {
     name: "AOC 34in 3K Curved Monitor",
-    price: "$455.00",
+    price: "$480.00",
+    spec: "$430.00",
+    cost: "$335.00",
     popular: true,
     features: [
       "Screen Szie 34inch",
@@ -64,7 +70,9 @@ const specials = [
   },
   {
     name: "Asus Expoertbook P5",
-    price: "$2200.00",
+    price: "$2220.00",
+    spec: "$1998.00",
+    cost: "$1550.00",
     popular: true,
     features: [
       "Intel i5",
@@ -91,7 +99,7 @@ const specials = [
     </LandingSectionhead>
 
     <div
-      class="grid md:grid-cols-3 grid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12"
+      class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12 content-center"
     >
       <LandingSpecials v-for="item of specials" :plan="item" />
     </div>
