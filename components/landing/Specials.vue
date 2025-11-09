@@ -5,18 +5,18 @@ defineProps(["plan"]);
 <template>
   <div>
     <div
-      class="flex flex-col items-stretch w-[310px] order-first lg:order-none border-4 border-[#D8DEE9] border-opacity-50 py-5 px-6 rounded-lg"
+      class="flex flex-col items-stretch h-[800px] w-[200px] lg:w-[310px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
     >
       <div class="text-center">
         <h4 class="text-lg font-medium text-ServiceHeader">{{ plan.name }}</h4>
         <p v-if="plan.image">
           <img :src="`/img/products/${plan.image}`" />
         </p>
-        <p class="text-4xl font-bold text-ServicePrice md:text-3xl">
+        <p class="text-4xl font-bold text-SpecialPrice md:text-3xl">
           {{ plan.spec }}
         </p>
         <p
-          class="text-4xl font-bold text-ServicePriceOrg md:text-xl line-through"
+          class="text-4xl font-bold text-ServicePriceOrg md:text-xl line-through text-opacity-50"
         >
           {{
             plan.price && typeof plan.price === "object"
@@ -32,7 +32,7 @@ defineProps(["plan"]);
         )
       } -->
       </div>
-      <ul class="grid mt-8 text-left gap-y-4">
+      <ul class="grid mt-4 text-left gap-y-4">
         <li
           v-for="item of plan.features"
           class="flex items-start gap-3 text-ServiceItems"

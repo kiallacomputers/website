@@ -42,6 +42,8 @@ export default {
         ServicePrice: "#BED2EF",
         ServicePriceOrg: "#FF0000",
         ServiceItems: "#404E71",
+        SpecialBorder: "#2CB6D5",
+        SpecialPrice: "#57D226",
 
         FooterText: "#404E71",
       },

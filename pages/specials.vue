@@ -75,10 +75,10 @@ const specials = [
     cost: "$1550.00",
     popular: true,
     features: [
-      "Intel i5",
+      "Intel i5-13420H",
       "14inch Screen",
       "16G DDR Memory",
-      "512G M.2 2280 NVME PCIe 4.0 SSD Hard Drive",
+      "512G M.2 NVME SSD Hard Drive",
       "Windows 11 pro",
       "",
     ],
@@ -99,7 +99,7 @@ const specials = [
     </LandingSectionhead>
 
     <div
-      class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12 content-center"
+      class="grid sm:justify-self-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12 content-center"
     >
       <LandingSpecials v-for="item of specials" :plan="item" />
     </div>
