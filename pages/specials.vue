@@ -44,6 +44,24 @@ const specials = [
       link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
     },
   },
+  {
+    name: "AOC CU34G4 34inch 3K Curved Gaming Monitor",
+    price: "$455.00",
+    popular: true,
+    features: [
+      "Screen Szie 34inch",
+      "Flat/Curved : Curved",
+      "Panel Resolution : 3440x1440",
+      "Max Refresh Rate : 180Hz",
+      "Inputs : HMDI 2.0 x 2, DisplayPort 1.4 x 1",
+      "Audio Output : Headphone out (3.5mm)",
+    ],
+    image: "moaocu34g4.jpg",
+    button: {
+      text: "Enquire",
+      link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
+    },
+  },
 ];
 </script>
 
