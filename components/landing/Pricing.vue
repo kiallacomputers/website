@@ -12,6 +12,7 @@ defineProps(["plan"]);
         <p v-if="plan.image">
           <img src="/assets/img/nbm15f13mg218.jpg" />
         </p>
+        <p>{{ plan.image }}</p>
         <p class="mt-3 text-4xl font-bold text-ServicePrice md:text-4xl">
           {{
             plan.price && typeof plan.price === "object"
