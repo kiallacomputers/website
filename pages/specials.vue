@@ -5,9 +5,9 @@ definePageMeta({
 import { useHead } from "#app";
 
 useHead({
-  title: "Kialla Computers - Services",
+  title: "Kialla Computers - Specials",
 });
-const Specials = [
+const specials = [
   {
     name: "MSI Modern 15 F13MG-218AU Notebook",
     price: "$1150.00",
