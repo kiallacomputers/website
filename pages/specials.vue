@@ -20,6 +20,7 @@ const Specials = [
       "Windows 11",
       "",
     ],
+    image: "nbm15f13mg218.jpg",
     button: {
       text: "Enquire",
       link: "mailto:sales@kiallacomputers.com.au?Subject=NBM15F13MG218",
@@ -36,7 +37,7 @@ const Specials = [
     </LandingSectionhead>
 
     <div class="grid md:grid-flow-col gap-10 mx-auto max-w-screen-lg mt-12">
-      <LandingPricing v-for="item of pricing" :plan="item" />
+      <LandingSpecials v-for="item of specials" :special="item" />
     </div>
   </LandingContainer>
 </template>
