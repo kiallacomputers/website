@@ -5,7 +5,7 @@ defineProps(["plan"]);
 <template>
   <div>
     <div
-      class="flex flex-col items-stretch h-[800px] w-[300px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
+      class="flex flex-col items-stretch h-[800px] w-[350px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
     >
       <div class="text-center">
         <h4 class="text-md md:text-lg font-medium text-ServiceHeader">
