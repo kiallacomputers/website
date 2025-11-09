@@ -9,7 +9,7 @@ useHead({
 });
 const specials = [
   {
-    name: "MSI Modern 15 F13MG-218AU Notebook",
+    name: "MSI Modern 15 F13MG-218AU",
     price: "$1150.00",
     popular: true,
     features: [
@@ -45,7 +45,7 @@ const specials = [
     },
   },
   {
-    name: "AOC CU34G4 34inch 3K Curved Gaming Monitor",
+    name: "AOC 34in 3K Curved Monitor",
     price: "$455.00",
     popular: true,
     features: [
