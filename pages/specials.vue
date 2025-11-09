@@ -91,7 +91,7 @@ const specials = [
     </LandingSectionhead>
 
     <div class="grid md:grid-flow-col gap-10 mx-auto max-w-screen-lg mt-12">
-      <LandingPricing v-for="item of specials" :plan="item" />
+      <LandingSpecials v-for="item of specials" :plan="item" />
     </div>
   </LandingContainer>
 </template>
