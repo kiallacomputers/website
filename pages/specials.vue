@@ -99,7 +99,7 @@ const specials = [
     </LandingSectionhead>
 
     <div
-      class="grid sm:justify-self-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mx-auto max-w-screen-lg mt-12 content-center"
+      class="grid justify-self-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto max-w-screen-lg mt-12"
     >
       <LandingSpecials v-for="item of specials" :plan="item" />
     </div>
