@@ -32,12 +32,12 @@ const Specials = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Specials</template>
+      <template v-slot:title>Services</template>
       <template v-slot:desc>Simple & Afforable pricing. No Surprises.</template>
     </LandingSectionhead>
 
     <div class="grid md:grid-flow-col gap-10 mx-auto max-w-screen-lg mt-12">
-      <LandingSpecials v-for="item of specials" :special="item" />
+      <LandingPricing v-for="item of specials" :plan="item" />
     </div>
   </LandingContainer>
 </template>
