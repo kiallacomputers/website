@@ -5,14 +5,14 @@ defineProps(["plan"]);
 <template>
   <div>
     <div
-      class="flex flex-col items-stretch h-[800px] w-[340px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
+      class="flex flex-col items-stretch h-[950px] w-[340px] order-first lg:order-none border-4 border-SpecialBorder border-opacity-30 py-5 px-6 rounded-lg"
     >
       <div class="text-center">
         <h4 class="text-md md:text-lg font-medium text-ServiceHeader">
           {{ plan.name }}
         </h4>
-        <p v-if="plan.image">
-          <img :src="`/img/products/${plan.image}`" />
+        <p v-if="plan.image" class="flex justify-center">
+          <img :src="`/img/products/${plan.image}`" width="250" />
         </p>
         <p class="text-2xl md:text-4xl font-bold text-SpecialPrice">
           {{ plan.spec }}
@@ -25,6 +25,9 @@ defineProps(["plan"]);
               ? plan.price.monthly
               : plan.price
           }}
+        </p>
+        <p class="text-xs md:text-sm font-bold text-SpecialExp">
+          Offer Exp : {{ plan.exp }}
         </p>
         <!-- {
         plan.price.original && (
