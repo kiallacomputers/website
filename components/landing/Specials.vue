@@ -42,7 +42,6 @@ defineProps(["plan"]);
           v-for="item of plan.features"
           class="flex items-start gap-3 text-ServiceItems"
         >
-          <LandingTick v-if="item" className="w-6 h-6" />
           <span>{{ item }}</span>
         </li>
       </ul>
