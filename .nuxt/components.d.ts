@@ -27,7 +27,6 @@ interface _GlobalComponents {
     'LandingLogos': typeof import("../components/landing/Logos.vue")['default']
     'LandingNavbar': typeof import("../components/landing/Navbar.vue")['default']
     'LandingPricing': typeof import("../components/landing/Pricing.vue")['default']
-    'LandingProductForm': typeof import("../components/landing/ProductForm.vue")['default']
     'LandingSectionhead': typeof import("../components/landing/Sectionhead.vue")['default']
     'LandingSpecials': typeof import("../components/landing/Specials.vue")['default']
     'LandingTick': typeof import("../components/landing/Tick.vue")['default']
@@ -74,7 +73,6 @@ interface _GlobalComponents {
     'LazyLandingLogos': LazyComponent<typeof import("../components/landing/Logos.vue")['default']>
     'LazyLandingNavbar': LazyComponent<typeof import("../components/landing/Navbar.vue")['default']>
     'LazyLandingPricing': LazyComponent<typeof import("../components/landing/Pricing.vue")['default']>
-    'LazyLandingProductForm': LazyComponent<typeof import("../components/landing/ProductForm.vue")['default']>
     'LazyLandingSectionhead': LazyComponent<typeof import("../components/landing/Sectionhead.vue")['default']>
     'LazyLandingSpecials': LazyComponent<typeof import("../components/landing/Specials.vue")['default']>
     'LazyLandingTick': LazyComponent<typeof import("../components/landing/Tick.vue")['default']>
@@ -127,7 +125,6 @@ export const LandingLink: typeof import("../components/landing/Link.vue")['defau
 export const LandingLogos: typeof import("../components/landing/Logos.vue")['default']
 export const LandingNavbar: typeof import("../components/landing/Navbar.vue")['default']
 export const LandingPricing: typeof import("../components/landing/Pricing.vue")['default']
-export const LandingProductForm: typeof import("../components/landing/ProductForm.vue")['default']
 export const LandingSectionhead: typeof import("../components/landing/Sectionhead.vue")['default']
 export const LandingSpecials: typeof import("../components/landing/Specials.vue")['default']
 export const LandingTick: typeof import("../components/landing/Tick.vue")['default']
@@ -174,7 +171,6 @@ export const LazyLandingLink: LazyComponent<typeof import("../components/landing
 export const LazyLandingLogos: LazyComponent<typeof import("../components/landing/Logos.vue")['default']>
 export const LazyLandingNavbar: LazyComponent<typeof import("../components/landing/Navbar.vue")['default']>
 export const LazyLandingPricing: LazyComponent<typeof import("../components/landing/Pricing.vue")['default']>
-export const LazyLandingProductForm: LazyComponent<typeof import("../components/landing/ProductForm.vue")['default']>
 export const LazyLandingSectionhead: LazyComponent<typeof import("../components/landing/Sectionhead.vue")['default']>
 export const LazyLandingSpecials: LazyComponent<typeof import("../components/landing/Specials.vue")['default']>
 export const LazyLandingTick: LazyComponent<typeof import("../components/landing/Tick.vue")['default']>
