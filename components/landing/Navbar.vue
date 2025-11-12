@@ -1,6 +1,10 @@
 <script setup>
 const menuitems = [
   {
+    title: "Admin",
+    path: "dashboard",
+  },
+  {
     title: "Specials",
     path: "specials",
   },

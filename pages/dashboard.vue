@@ -1,11 +1,14 @@
 <script setup>
+import { useHead } from "#app";
+
 definePageMeta({
   middleware: "auth",
+  layout: "landing",
 });
 </script>
 
 <template>
-  <div>
-    <h1>Welcome to your Dashboard!</h1>
-  </div>
+  <LandingContainer>
+    <div class="">Dashboard</div>
+  </LandingContainer>
 </template>
