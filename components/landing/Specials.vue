@@ -45,7 +45,7 @@ defineProps(["plan"]);
           <span>{{ item }}</span>
         </li>
       </ul>
-      <div class="flex mt-8 mt-auto">
+      <!-- <div class="flex mt-8 mt-auto">
         <LandingLink
           :href="plan.button.link || '#'"
           block
@@ -54,7 +54,7 @@ defineProps(["plan"]);
         >
           {{ plan.button.text || "Get Started" }}
         </LandingLink>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
