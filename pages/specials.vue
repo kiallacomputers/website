@@ -10,11 +10,11 @@ useHead({
 const specials = [
   {
     name: "MSI Modern 15 F13MG-218AU",
-    price: "$1180.00",
-    spec: "$1060.00",
-    cost: "$825.00",
+    price: "$1450.00",
+    spec: "$1250.00",
+    cost: "$899.00",
     popular: true,
-    exp: "2025-11-09",
+    exp: "20256-02-14",
     features: [
       "Intel i7-1355U",
       "15.6inch Screen",
@@ -31,11 +31,11 @@ const specials = [
   },
   {
     name: "Asus Expertbook P1",
-    price: "$1250.00",
-    spec: "$1125.00",
-    cost: "$875.00",
+    price: "$1450.00",
+    spec: "$1250.00",
+    cost: "$899.00",
     popular: true,
-    exp: "2025-11-11",
+    exp: "2026-02-14",
     features: [
       "Intel i5-13420H",
       "15.6inch Screen",
@@ -52,11 +52,11 @@ const specials = [
   },
   {
     name: "AOC 34in 3K Curved Monitor",
-    price: "$480.00",
-    spec: "$430.00",
-    cost: "$335.00",
+    price: "$530.00",
+    spec: "$460.00",
+    cost: "$309.00",
     popular: true,
-    exp: "2025-11-10",
+    exp: "2026-02-14",
     features: [
       "Screen Szie 34inch",
       "Flat/Curved : Curved",
@@ -94,11 +94,11 @@ const specials = [
   },
   {
     name: "Guardian Rysen 5 5500",
-    price: "$1820.00",
-    spec: "$1685.00",
-    cost: "$1405.00",
+    price: "$2670.00",
+    spec: "$2300.00",
+    cost: "$1649.00",
     popular: true,
-    exp: "2025-11-16",
+    exp: "2026-02-14",
     features: [
       "AMD Ryzen 5 7500F AM5 CPU with Fan 3.7Ghz (Upto 5Ghz)",
       "Nvidia RTX5060 8G Video card",
@@ -117,11 +117,11 @@ const specials = [
   },
   {
     name: "Guardian Rysen 5 5500",
-    price: "$1265.00",
-    spec: "$1165.00",
-    cost: "$973.50",
+    price: "$1795.00",
+    spec: "$1540.00",
+    cost: "$1099.00",
     popular: true,
-    exp: "2025-11-16",
+    exp: "2026-2-14",
     features: [
       "AMD Ryzen 5 5500 6 Core CPU Wraith cooler Upto 4.2Ghz",
       "Asus / Gigabyte AMD Radeon RX6500XT 4GB video card",
