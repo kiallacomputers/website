@@ -154,6 +154,7 @@ const filteredItems = specials.filter((item) => {
   // itemDate.setHours(0, 0, 0, 0); // Normalize item's date to midnight
   return itemDate >= formatted;
 });
+const productcount = computed(() => specials.values.length);
 
 console.log("Items with exp dates greater than today:");
 filteredItems.forEach((item) => console.log(item.name, item.exp, formatted));
@@ -169,7 +170,12 @@ filteredItems.forEach((item) => console.log(item.name, item.exp, formatted));
     <div
       class="grid justify-self-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-lg mt-12"
     >
-      <LandingSpecials v-for="item in filteredItems" :plan="item" />
+      <LandingSpecials
+        v-if="productcount > 0"
+        v-for="item in filteredItems"
+        :plan="item"
+      />
+      <div v-if="productcount = 0">Sorry no specials at this time.</div>
     </div>
   </LandingContainer>
 </template>
