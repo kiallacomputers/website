@@ -72,7 +72,7 @@ const specials = [
     },
   },
   {
-    name: "Asus Expoertbook P5",
+    name: "Asus Expoertbook P",
     price: "$2220.00",
     spec: "$1998.00",
     cost: "$1550.00",
@@ -170,11 +170,7 @@ filteredItems.forEach((item) => console.log(item.name, item.exp, formatted));
     <div
       class="grid justify-self-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-lg mt-12"
     >
-      <LandingSpecials
-        v-if="productcount > 0"
-        v-for="item in filteredItems"
-        :plan="item"
-      />
+      <LandingSpecials v-for="item in filteredItems" :plan="item" />
       <div v-if="productcount = 0">Sorry no specials at this time.</div>
     </div>
   </LandingContainer>
