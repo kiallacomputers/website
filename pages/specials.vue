@@ -152,7 +152,6 @@ const formatted = `${yyyy}-${mm}-${dd}`;
 const filteredItems = specials.filter((item) => {
   const itemDate = item.exp;
   // itemDate.setHours(0, 0, 0, 0); // Normalize item's date to midnight
-  const productcount = productcounter++;
   return itemDate >= formatted;
 });
 
