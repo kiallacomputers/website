@@ -170,12 +170,7 @@ filteredItems.forEach((item) => console.log(item.name, item.exp, formatted));
     <div
       class="grid justify-self-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-lg mt-12"
     >
-      <LandingSpecials
-        v-if="(productcount) => 1"
-        v-for="item in filteredItems"
-        :plan="item"
-      />
-      <div v-if="productcount">Sorry no specials at this time.</div>
+      <LandingSpecials v-for="item in filteredItems" :plan="item" />
     </div>
   </LandingContainer>
 </template>
