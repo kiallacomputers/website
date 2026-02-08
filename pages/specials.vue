@@ -14,7 +14,7 @@ const specials = [
     spec: "$1250.00",
     cost: "$899.00",
     popular: true,
-    exp: "20256-02-14",
+    exp: "20256-01-14",
     features: [
       "Intel i7-1355U",
       "15.6inch Screen",
@@ -152,9 +152,9 @@ const formatted = `${yyyy}-${mm}-${dd}`;
 const filteredItems = specials.filter((item) => {
   const itemDate = item.exp;
   // itemDate.setHours(0, 0, 0, 0); // Normalize item's date to midnight
+  const productcount = productcounter++;
   return itemDate >= formatted;
 });
-const productcount = computed(() => specials.values.length);
 
 console.log("Items with exp dates greater than today:");
 filteredItems.forEach((item) => console.log(item.name, item.exp, formatted));
@@ -170,8 +170,12 @@ filteredItems.forEach((item) => console.log(item.name, item.exp, formatted));
     <div
       class="grid justify-self-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-lg mt-12"
     >
-      <LandingSpecials v-for="item in filteredItems" :plan="item" />
-      <div v-if="productcount = 0">Sorry no specials at this time.</div>
+      <LandingSpecials
+        v-if="(productcount) => 1"
+        v-for="item in filteredItems"
+        :plan="item"
+      />
+      <div v-if="productcount">Sorry no specials at this time.</div>
     </div>
   </LandingContainer>
 </template>
