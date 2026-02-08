@@ -14,7 +14,7 @@ const specials = [
     spec: "$1250.00",
     cost: "$899.00",
     popular: true,
-    exp: "20256-01-14",
+    exp: "2026-02-14",
     features: [
       "Intel i7-1355U",
       "15.6inch Screen",
