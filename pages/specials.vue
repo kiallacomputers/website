@@ -16,12 +16,12 @@ const specials = [
     popular: true,
     exp: "2026-03-31",
     features: [
-      "Intel i7-1355U",
-      "15.6inch Screen",
-      "16G DDR Memory",
-      "512G SSD Hard Drive",
-      "Windows 11",
-      "",
+      "13th Gen Intel® Core™ i7-1355U processor 10 cores (2 P-cores + 8 E-cores), Max Turbo Frequency 5.0 GHz",
+      "15.6" FHD(1920x1080), IPS-Level",
+      "16G DDR Memory 8GB*2 DDR4-3200",
+      "512GB*1 NVMe SSD PCIe Gen4",
+      "Microsoft Windows 11 Pro",
+      "Dimensions (W x D x H) 35.8 x 23.5 x 1.9 cm",
     ],
     image: "nbm15f13mg218.jpg",
     button: {
