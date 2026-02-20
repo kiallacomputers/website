@@ -17,7 +17,7 @@ const specials = [
     exp: "2026-03-31",
     features: [
       "13th Gen Intel® Core™ i7-1355U processor 10 cores (2 P-cores + 8 E-cores), Max Turbo Frequency 5.0 GHz",
-      "15.6" FHD(1920x1080), IPS-Level",
+      "15.6inch FHD(1920x1080), IPS-Level",
       "16G DDR Memory 8GB*2 DDR4-3200",
       "512GB*1 NVMe SSD PCIe Gen4",
       "Microsoft Windows 11 Pro",
