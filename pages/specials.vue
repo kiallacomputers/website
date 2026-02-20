@@ -94,11 +94,11 @@ const specials = [
   },
   {
     name: "Guardian Rysen 5 5500",
-    price: "$2670.00",
-    spec: "$2300.00",
-    cost: "$1649.00",
+    price: "$2810.00",
+    spec: "$2600.00",
+    cost: "$2007.50",
     popular: true,
-    exp: "2026-02-14",
+    exp: "2026-03-31",
     features: [
       "AMD Ryzen 5 7500F AM5 CPU with Fan 3.7Ghz (Upto 5Ghz)",
       "Nvidia RTX5060 8G Video card",
