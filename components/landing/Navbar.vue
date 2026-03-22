@@ -5,6 +5,10 @@ const menuitems = [
   //   path: "dashboard",
   // },
   {
+    title: "Solutions",
+    path: "solutions",
+  },
+  {
     title: "Specials",
     path: "specials",
   },
