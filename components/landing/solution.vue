@@ -18,13 +18,23 @@
         Wifi Mesh
       </h1>
       <p class="text-lg mt-4 text-Primary max-w-xl">
-        We specialize in recovering lost, deleted, corrupted, or inaccessible
-        data from a wide range of storage devices. Whether the cause is
-        accidental deletion, hardware failure, system crash, or malware
-        infection, our advanced tools and techniques give you the best chance of
-        restoring valuable information.
+        Upgrade your home or office network with seamless, whole-space coverage
+        using a powerful Wi-Fi Mesh system. Say goodbye to dead zones and
+        dropouts—this smart solution blankets every room with fast, reliable
+        internet, automatically connecting your devices to the strongest signal
+        as you move around.
       </p>
-      <ul class="grid mt-8 text-left gap-y-4">
+      <p class="text-lg mt-4 text-Primary max-w-xl">
+        Perfect for busy households, streaming, gaming, and working from home, a
+        Wi-Fi Mesh system delivers consistent speeds, easy setup, and the
+        flexibility to expand as your needs grow. With sleek, modern nodes that
+        blend into any space, you will get high performance without the clutter.
+      </p>
+      <p class="text-lg mt-4 text-Primary max-w-xl">
+        Stay connected everywhere—stronger signal, smarter coverage, and Wi-Fi
+        that just works.
+      </p>
+      <!--      <ul class="grid mt-8 text-left gap-y-4">
         <li class="flex items-start gap-3 text-ServiceItems">
           <LandingTick className="w-6 h-6" />Hard Drive & SSD Recovery
         </li>
@@ -38,7 +48,7 @@
           <LandingTick className="w-6 h-6" />Malware or Ransomware Attacks
           Recovery
         </li>
-      </ul>
+      </ul>-->
     </div>
     <!-- <LandingSectionhead>
       <template v-slot:title>Data Recovery</template>
