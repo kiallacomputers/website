@@ -50,15 +50,5 @@
         </li>
       </ul>-->
     </div>
-    <!-- <LandingSectionhead>
-      <template v-slot:title>Data Recovery</template>
-      <template v-slot:desc>We specialize in recovering lost, deleted, corrupted, or inaccessible data
-                            from a wide range of storage devices.<br />Whether the cause is accidental deletion, 
-                            hardware failure, system crash, or malware infection, our advanced tools and 
-                            techniques<br />give you the best chance of restoring valuable information.</template>
-    </LandingSectionhead> -->
   </main>
-  <div>
-    <LandingDrContactForm />
-  </div>
 </template>
