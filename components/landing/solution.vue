@@ -15,7 +15,7 @@
       <h1
         class="text-4xl lg:text-6xl xl:text-7xl text-center font-bold lg:tracking-tight text-MainHeader"
       >
-        Wifi Mesh
+        WI-FI Mesh
       </h1>
       <p class="text-md mt-4 text-Primary max-w-xl">
         Upgrade your home or office network with seamless, whole-space coverage
