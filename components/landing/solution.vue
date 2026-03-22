@@ -34,6 +34,9 @@
         Stay connected everywhere—stronger signal, smarter coverage, and Wi-Fi
         that just works.
       </p>
+      <p class="text-md mt-4 text-Primary max-w-xl">
+        Contact us for a free quote and expert advice, obligation-free.
+      </p>
     </div>
   </main>
 </template>
