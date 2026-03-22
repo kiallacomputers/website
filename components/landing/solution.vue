@@ -24,13 +24,13 @@
         internet, automatically connecting your devices to the strongest signal
         as you move around.
       </p>
-      <p class="text-lg mt-4 text-Primary max-w-xl">
+      <p class="text-md mt-4 text-Primary max-w-xl">
         Perfect for busy households, streaming, gaming, and working from home, a
         Wi-Fi Mesh system delivers consistent speeds, easy setup, and the
         flexibility to expand as your needs grow. With sleek, modern nodes that
         blend into any space, you will get high performance without the clutter.
       </p>
-      <p class="text-lg mt-4 text-Primary max-w-xl">
+      <p class="text-md mt-4 text-Primary max-w-xl">
         Stay connected everywhere—stronger signal, smarter coverage, and Wi-Fi
         that just works.
       </p>
