@@ -2,7 +2,7 @@
 import { useHead } from "#app";
 
 useHead({
-  title: "Kialla Computers - Data Recovery",
+  title: "Kialla Computers - Solutions",
 });
 
 definePageMeta({
@@ -12,6 +12,6 @@ definePageMeta({
 
 <template>
   <LandingContainer>
-    <LandingDrc></LandingDrc>
+    <LandingSolution />
   </LandingContainer>
 </template>
