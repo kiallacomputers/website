@@ -35,7 +35,7 @@ const specials = [
     spec: "$1280.00",
     cost: "$1068.10",
     popular: true,
-    exp: "2026-03-31",
+    exp: "2026-04-30",
     features: [
       "Intel® Core™ i5-1335U Processor 4.6GHz",
       "16.0inch, WUXGA (1920x1200) IPS 300nits Anit-Glare 45% NTSC",
@@ -56,7 +56,7 @@ const specials = [
     spec: "$2500.00",
     cost: "$2007.50",
     popular: true,
-    exp: "2026-03-31",
+    exp: "2026-04-30",
     features: [
       "AMD Ryzen 5 7500F AM5 CPU with Fan 3.7Ghz (Upto 5Ghz)",
       "Nvidia RTX5060 8G Video card",
@@ -79,7 +79,7 @@ const specials = [
     spec: "$1550.00",
     cost: "$1237.50",
     popular: true,
-    exp: "2026-03-31",
+    exp: "2026-04-30",
     features: [
       "AMD Ryzen 5 5500 6 Core CPU Wraith cooler Upto 4.2Ghz",
       "Asus / Gigabyte AMD Radeon RX6500XT 4GB video card",
