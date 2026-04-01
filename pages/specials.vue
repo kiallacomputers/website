@@ -11,10 +11,10 @@ const specials = [
   {
     name: "ASUS Vivbook 15inch I5 16gb 512G W11",
     price: "$1530.00",
-    spec: "$1300.00",
+    spec: "$1200.00",
     cost: "$1019.59",
     popular: true,
-    exp: "2026-04-30",
+    exp: "2026-04-05",
     features: [
       "13th Gen Intel® Core™ i5-13420H processor 8 cores, Max Turbo Frequency 5.0 GHz",
       "15.6-inch FHD(1920x1080), IPS-Level",
@@ -76,7 +76,7 @@ const specials = [
   {
     name: "Guardian Rysen 5 5500",
     price: "$1750.00",
-    spec: "$1550.00",
+    spec: "$1480.00",
     cost: "$1237.50",
     popular: true,
     exp: "2026-04-30",
