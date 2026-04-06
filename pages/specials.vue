@@ -9,24 +9,24 @@ useHead({
 });
 const specials = [
   {
-    name: "ASUS Vivbook 15inch I5 16gb 512G W11",
-    price: "$1530.00",
-    spec: "$1200.00",
-    cost: "$1019.59",
+    name: 'AOC C32G2e 31.5" Curve 240Hz 0.5ms Gaming Monitor',
+    price: '$455.00',
+    spec: '$410.00
+    cost: '$324.50',
     popular: true,
-    exp: "2026-04-05",
+    exp: '2026-04-25',
     features: [
-      "13th Gen Intel® Core™ i5-13420H processor 8 cores, Max Turbo Frequency 5.0 GHz",
-      "15.6-inch FHD(1920x1080), IPS-Level",
-      "16G DDR4 Memory",
-      "512GB*1 NVMe SSD PCIe Gen4",
-      "Microsoft Windows 11 Home",
-      "Dimensions (W x D x H) 35.8 x 23.5 x 1.9 cm",
+      '240Hz Refresh Rate',
+      '<1ms Response Time',
+      '1500CR Curved',
+      'Freesync Premium',
+      'Low Input Lag & 6 Game Modes',
+      'Dimensions (H x W x D) 524.4 x 709.9 x 244.9 inc Base',
     ],
-    image: "nbasx1502va-05w.jpg",
+    image: 'AOCC32G2zE.jpg',
     button: {
-      text: "Enquire",
-      link: "mailto:sales@kiallacomputers.com.au?Subject=Product Enquery nbasx1502va-05w",
+      text: 'Enquire',
+      link: 'mailto:sales@kiallacomputers.com.au?Subject=Product Enquery AOC C32G2zE',
     },
   },
   {
