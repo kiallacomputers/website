@@ -9,7 +9,7 @@ useHead({
 });
 const specials = [
   {
-    name: 'AOC C32G2e 31.5" Curve 240Hz 0.5ms Gaming Monitor',
+    name: 'AOC C32G2ZE 31.5" Curve 240Hz 0.5ms Gaming Monitor',
     price: "$455.00",
     spec: "$410.00",
     cost: "$324.50",
@@ -21,12 +21,33 @@ const specials = [
       "1500CR Curved",
       "Freesync Premium",
       "Low Input Lag & 6 Game Modes",
-      "Dimensions (H x W x D) 524.4 x 709.9 x 244.9 inc Base",
+      "Dimensions mm (H x W x D) 524.4 x 709.9 x 244.9 inc Base",
     ],
     image: "AOCC32G2zE.jpg",
     button: {
       text: "Enquire",
       link: "mailto:sales@kiallacomputers.com.au?Subject=Product Enquery AOC C32G2zE",
+    },
+  },
+  {
+    name: 'AOC C27G4Z 27" Curve 280Hz .3ms Gaming Monitor',
+    price: "$375.00",
+    spec: "$345.00",
+    cost: "$265.10",
+    popular: true,
+    exp: "2026-04-25",
+    features: [
+      "280Hz Refresh Rate",
+      "<1ms Response Time",
+      "1000CR Curved",
+      "Total-Immersion Gaming",
+      "HDMI: 2.2, DisplayPort: 2.2",
+      "Dimensions mm (H x W x D) 516.4 x 611.52 x 239.4 inc Base",
+    ],
+    image: "aocC27G4Z.jpg",
+    button: {
+      text: "Enquire",
+      link: "mailto:sales@kiallacomputers.com.au?Subject=Product Enquery AOC C27G4Z",
     },
   },
   {
