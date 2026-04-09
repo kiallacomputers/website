@@ -37,7 +37,7 @@ defineProps(["plan"]);
         )
       } -->
       </div>
-      <ul class="grid mt-4 text-left gap-y-4">
+      <ul class="grid mt-4 text-left gap-y-4 text-sm">
         <li
           v-for="item of plan.features"
           class="flex items-start gap-3 text-ServiceItems"
