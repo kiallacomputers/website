@@ -21,7 +21,7 @@ const specials = [
       "Dual-Band Distribute devices to different bands for optimal performance",
       "MU-MIMO Simultaneously communicates with multiple MU-MIMO clients",
       "Router Mode & Access Point Mode",
-      "Dimensions mm (H x W x D) 90.7 x 90.1 x 190",
+      "Dimensions mm (H x W x D) <br>90.7 x 90.1 x 190",
     ],
     image: "DECOE4-2P.jpg",
     button: {
