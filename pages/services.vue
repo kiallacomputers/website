@@ -10,7 +10,7 @@ useHead({
 const pricing = [
   {
     name: "Computer Service",
-    price: "$66/H",
+    price: "$88/H",
     popular: true,
     features: [
       "Call Fee $99.00 inc 1st hour",
@@ -28,7 +28,7 @@ const pricing = [
   },
   {
     name: "Virus Cleaning",
-    price: "$120/H",
+    price: "$150/H",
     popular: true,
     features: [
       "Backup Import Files",
@@ -45,7 +45,7 @@ const pricing = [
   },
   {
     name: "Data Recovery",
-    price: "$220/H",
+    price: "$250/H",
     popular: true,
     features: [
       "Hard Drive & SSD Data Recovery",
