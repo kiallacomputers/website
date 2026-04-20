@@ -13,7 +13,7 @@ const pricing = [
     price: "$88/H",
     popular: true,
     features: [
-      "Call Fee $99.00 inc 1st hour",
+      "+Call out Fee $30.00",
       "Computer Repairs & Upgrades",
       "Network Setup & Support",
       "Software Isntallation & Support",
