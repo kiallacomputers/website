@@ -14,7 +14,7 @@ const specials = [
     spec: "$160.00",
     cost: "$130.64",
     popular: true,
-    exp: "2026-04-30",
+    exp: "2026-05-30",
     features: [
       "TP-Link Mesh Technology Optional Ethernet backhaul work together to link Deco units to provide seamless coverage",
       "2 Antennas (Internal) Multiple antennas form a signal-boosting array to cover more directions and large areas",
@@ -35,7 +35,7 @@ const specials = [
     spec: "$215.00",
     cost: "$168.04",
     popular: true,
-    exp: "2026-04-30",
+    exp: "2026-05-30",
     features: [
       "TP-Link Mesh Technology Optional Ethernet backhaul work together to link Deco units to provide seamless coverage",
       "2 Antennas (Internal) Multiple antennas form a signal-boosting array to cover more directions and large areas",
