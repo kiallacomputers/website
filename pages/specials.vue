@@ -109,7 +109,7 @@ const specials = [
       "HDR Ready-Provide eye-catching detail through contrast and shadows adjustment.",
       "Less Blue Light – Use a software solution to reduce the light emission in the blue-violet region of the blue light spectrum.",
     ],
-    image: "MOMMAG27C6F.png",
+    image: "MOMMAG27C6F.jpg",
     button: {
       text: "Enquire",
       link: "mailto:sales@kiallacomputers.com.au?Subject=Product Enquery MOMMAG27C6F",
