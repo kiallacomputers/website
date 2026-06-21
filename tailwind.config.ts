@@ -42,11 +42,8 @@ export default {
         ServicePrice: "#BED2EF",
         ServicePriceOrg: "#FF0000",
         ServiceItems: "#404E71",
-        SpecialBorder: "#2CB6D5",
-        SpecialPrice: "#57D226",
-        SpecialExp: "#2CB6D5",
 
-        FooterText: "#404E71",
+        FooterText: "#2CB6D5",
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
