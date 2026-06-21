@@ -8,10 +8,10 @@ const menuitems = [
     title: "Solutions",
     path: "solutions",
   },
-  {
-    title: "Specials",
-    path: "specials",
-  },
+  // {
+  //   title: "Specials",
+  //   path: "specials",
+  // },
   {
     title: "Services",
     path: "services",
