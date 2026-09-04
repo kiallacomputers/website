@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kc-navy: #0b1f3a;
+  --kc-blue: #2367d1;
+  --kc-cyan: #22d3ee;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #f8fafc; color: #334155; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+a { text-decoration: none; }
+
+.kc-page { max-width: 80rem; margin: 0 auto; padding: 3rem 1rem; }
+.kc-panel { background: white; border: 1px solid #e2e8f0; border-radius: 1rem; box-shadow: 0 1px 2px rgba(15,23,42,.04); }
+.kc-eyebrow { color: #0891b2; font-size: .75rem; line-height: 1rem; font-weight: 900; text-transform: uppercase; letter-spacing: .16em; }
+.kc-title { color: #0b1f3a; font-weight: 900; letter-spacing: -.025em; }
+.kc-btn-primary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; border-radius:.75rem; background:#22d3ee; color:#0b1f3a; padding:.8rem 1.25rem; font-size:.875rem; font-weight:900; transition:.18s ease; }
+.kc-btn-primary:hover { background:#67e8f9; transform:translateY(-1px); }
+.kc-btn-secondary { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; border-radius:.75rem; border:1px solid #cbd5e1; background:#fff; color:#0b1f3a; padding:.8rem 1.25rem; font-size:.875rem; font-weight:900; transition:.18s ease; }
+.kc-btn-secondary:hover { border-color:#67e8f9; color:#2367d1; background:#f8fafc; }
+.kc-service-icon { display:flex; height:3rem; width:3rem; align-items:center; justify-content:center; border-radius:.9rem; background:#eff6ff; color:#2367d1; }
+
+@media (min-width: 768px) { .kc-page { padding-left: 1.5rem; padding-right: 1.5rem; } }
