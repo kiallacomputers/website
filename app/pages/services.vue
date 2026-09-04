@@ -65,11 +65,11 @@ const pricing = [
   <LandingContainer>
     <LandingSectionhead>
       <template v-slot:title>Services</template>
-      <template v-slot:desc>Simple & Afforable pricing. No Surprises.</template>
+      <template v-slot:desc>Straightforward local service and support. No unnecessary complexity.</template>
     </LandingSectionhead>
 
     <div
-      class="grid justify-self-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-lg mt-12"
+      class="grid grid-cols-1 gap-6 mx-auto max-w-screen-xl mt-12 md:grid-cols-2 lg:grid-cols-3"
     >
       <LandingPricing v-for="item of pricing" :plan="item" />
     </div>

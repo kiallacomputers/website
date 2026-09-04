@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply m-0 bg-slate-50 text-slate-700 antialiased; }
+  ::selection { background: #22d3ee; color: #0b1f3a; }
+}
+
+@layer components {
+  .kc-panel { @apply rounded-2xl border border-slate-200 bg-white shadow-sm; }
+  .kc-card { @apply rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-kc; }
+  .kc-eyebrow { @apply text-xs font-black uppercase tracking-[0.18em] text-cyan-600; }
+  .kc-heading { @apply font-black tracking-tight text-[#0b1f3a]; }
+  .kc-gradient { background: radial-gradient(circle at 85% 20%, rgba(34,211,238,.22), transparent 28%), radial-gradient(circle at 15% 85%, rgba(35,103,209,.28), transparent 34%), #0b1f3a; }
+}

@@ -17,9 +17,9 @@ definePageMeta({
       <template v-slot:desc>We are here to help.</template>
     </LandingSectionhead>
 
-    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
-      <div>
-        <h2 class="font-medium text-2xl text-Primary">
+    <div class="grid md:grid-cols-2 gap-8 mx-auto max-w-5xl mt-12">
+      <div class="kc-panel p-7 sm:p-8">
+        <h2 class="font-black text-2xl text-Primary">
           Contact Kialla Computers
         </h2>
         <p class="text-lg leading-relaxed text-PrimaryLight mt-3">
@@ -39,11 +39,11 @@ definePageMeta({
           </div>
           <div class="flex items-center mt-2 space-x-2 text-PrimaryLight">
             <Icon class="text-IconColor w-4 h-4 mr-2" name="uil:phone" />
-            0457 826 441
+            0488 736 282
           </div>
         </div>
       </div>
-      <div>
+      <div class="kc-panel p-7 sm:p-8">
         <LandingContactform />
       </div>
     </div>

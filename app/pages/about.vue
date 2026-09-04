@@ -42,7 +42,7 @@ const team = [
       <template v-slot:desc>We are a small passionate team.</template>
     </LandingSectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+    <div class="kc-panel flex flex-col gap-3 mx-auto max-w-4xl mt-12 p-7 sm:p-10">
       <h2 class="font-bold text-3xl text-Primary">
         Empowering small business and home offices to achieve their goals.
       </h2>
@@ -52,7 +52,7 @@ const team = [
         team so special.
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-8">
       <div v-for="item of team" class="group">
         <div class="w-full aspect-square">
           <img
